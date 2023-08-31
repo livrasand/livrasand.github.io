@@ -2,7 +2,7 @@
 const publicationsContainer = document.getElementById('publications-container');
 
 // Realiza una solicitud HTTP para obtener el JSON
-fetch('https://raw.githubusercontent.com/livrasand/Reviw/main/publications.json')
+fetch('https://raw.githubusercontent.com/livrasand/Reviw_Channel/main/publications.json')
   .then(response => response.json())
   .then(jsonData => {
     // Genera el contenido basado en el JSON
