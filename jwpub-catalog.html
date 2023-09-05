@@ -43,7 +43,7 @@
          </header>
          <main class="download-page svelte-1omhc40">
             <h2 class="text-block type-title-large  svelte-zxj483" style="text-align: center;">Bienvenido</h2>
-            <p style="color: var(--fds-text-secondary);font-size: 1.6rem;font-weight: 400;margin-block: 12px 24px;">Este es el catálogo de publicaciones para JW Library de GoAttendant (JWPUB Catalog). Aquí puede encontrar las últimas publicaciones de GoAttendant Team. Todos los documentos del catálogo requieren que tenga instalado JW Library en su dispositivo Windows, Apple o Android.</p>
+            <p style="color: var(--fds-text-secondary);font-size: 1.6rem;font-weight: 400;margin-block: 12px 24px;">Bienvenido al catálogo de publicaciones para JW Library de GoAttendant (JWPUB Catalog). En este lugar, tendrá acceso a las últimas creaciones del equipo de GoAttendant. Por favor, tenga en cuenta que todos los documentos de nuestro catálogo están diseñados para funcionar de manera óptima en dispositivos con sistemas operativos Windows, Apple y Android, con la instalación previa de JW Library. Le invitamos cordialmente a explorar nuestro catálogo y disfrutar de nuestras creaciones. Algunas publicaciones pueden haber perdido su funcionalidad con el tiempo, y es posible que no estén en nuestras prioridades de reparación, ya que podrían considerarse obsoletas.</p>
 
             <details data-view-component="true" class="details-overlay">
   <summary role="button" data-view-component="true" class="btn-primary btn-sm btn">    Lee nuestro mensaje de uso leal (Carta legal)
@@ -86,9 +86,12 @@ La política detrás de la ley de derechos de autor no es simplemente proteger l
 Todas las publicaciones que crea GoAttendant Team dan crédito al propietario de los derechos de autor, a la <b>Watch Tower Bible and Tract Society of Pennsylvania</b>, no obtenemos beneficios por el contenido infractor, y "no es nuestra intención infringir los derechos de autor" de sus propietarios. Para obtener más información sobre este tema, consulte sobre qué se considera uso legítimo.</p>
   </div>
 </details>
-            <p style="color: var(--fds-text-secondary);font-size: 1.6rem;font-weight: 400;margin-block: 12px 24px;margin-bottom: 20px;">
-               ¿Entonces, qué esperas? Hay <b>16</b> publicaciones actualmente en el catálogo, siendo <b>Cuaderno de Apuntes para la Asamblea Regional del 2023</b> la publicación más valorada. Hay algunas publicaciones que quizá ya no funcionen, tampoco espere que sean reparadas, pues quizá sean antiguas.
-            </p>
+<p style="color: var(--fds-text-secondary);font-size: 1.6rem;font-weight: 400;margin-block: 12px 24px;">Le recomendamos usar el buscador de abajo y buscar JWPUB's similares. Si encuentra uno que se asemeje al suyo, le sugerimos considerar la posibilidad de mejorar el JWPUB existente en lugar de crear uno nuevo. Fomentamos la colaboración y la mejora continua, especialmente si su JWPUB es de naturaleza simple. Ser un mantenedor y añadir funcionalidades o ajustar un JWPUB existente puede ser una opción valiosa. Su contribución será apreciada.</p>
+<div class="search-container">
+  <input type="text" id="search-input" placeholder="Buscar publicaciones...">
+  <button onclick="searchPublications()">Buscar</button>
+</div>
+
             <section class="download-sources svelte-1omhc40">
                <div id="publications-container"></div>
                <p class="svelte-1omhc40">¿Tienes problemas para descargar alguna publicación o encontraste algún error? Háznoslo saber en <b>jwpubcatalog@gmail.com</b>.</p>

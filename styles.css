@@ -14852,3 +14852,29 @@ div, span, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, abbr, add
   background: transparent;
     background-color: transparent;
 }
+/* Estilos para el cuadro de búsqueda */
+.search-container {
+	width: 100%;
+  text-align: center;
+  margin: 20px auto;
+}
+
+#search-input {
+  padding: 10px;
+  width: 60%;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+button {
+  padding: 10px 20px;
+  background-color: #005fb8;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: #00448c;
+}
