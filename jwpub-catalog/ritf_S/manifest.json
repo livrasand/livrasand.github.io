@@ -1,1 +1,67 @@
-
+{
+	"name": "ritf_S_2022.jwpub",
+	"hash": "d8e00f16005c89fe22ce4b2bae1605f7441d4da27b1aeaafd81f254c9b00f158",
+	"timestamp": "2022-12-03T15:27:23Z",
+	"version": 1,
+	"expandedSize": 961988,
+	"contentFormat": "z-a",
+	"htmlValidated": false,
+	"mepsPlatformVersion": 2.100000,
+	"mepsBuildNumber": 11476,
+	"publication": { 
+		"fileName": "ritf_S_2022.db",
+		"type": 1,
+		"title": "“Permanezcan en la fe” (Hechos 14:22)",
+		"shortTitle": "Permanezcan",
+		"displayTitle": "Permanezcan  (ritf22)",
+		"referenceTitle": "Permanezcan",
+		"undatedReferenceTitle": "Permanezcan",
+		"titleRich": "“Permanezcan en la fe” (Hechos 14:22)",
+		"displayTitleRich": "Permanezcan  (ritf22)",
+		"referenceTitleRich": "Permanezcan",
+		"undatedReferenceTitleRich": "Permanezcan",
+		"symbol": "ritf22",
+		"uniqueEnglishSymbol": "ritf22",
+		"uniqueSymbol": "ritf22",
+		"undatedSymbol": "ritf22",
+		"englishSymbol": "ritf22",
+		"language": 1,
+		"hash": "7c634825908cb43d4f8f46264b6f7ebc5e7f6257",
+		"timestamp": "2022-12-03T15:27:23Z",
+		"minPlatformVersion": 1,
+		"schemaVersion": 8,
+		"year": 2022,
+		"issueId": 0,
+		"issueNumber": 0,
+		"variation": "",
+		"publicationType": "Book",
+		"rootSymbol": "ritf22",
+		"rootYear": 2022,
+		"rootLanguage": 0,
+		"images": [ 
+			{
+				"signature": "687ef6127fb0590df1285c4e993d8bd9237fa883:600:600",
+				"fileName": "46616d696c7920576f726b73686973_univ_sqr.jpg",
+				"type": "t",
+				"attribute": "r",
+				"width": 600,
+				"height": 600
+			}
+		],
+		"categories": [ 
+				"bk"
+		],
+		"attributes": [			
+			""
+		],
+		"issueAttributes": [ 
+		],
+		"issueProperties": { 
+				"title": "",
+				"undatedTitle": "",
+				"coverTitle": "",
+				"symbol": "ritf22",
+				"undatedSymbol": "ritf22"
+		}
+	}
+}
