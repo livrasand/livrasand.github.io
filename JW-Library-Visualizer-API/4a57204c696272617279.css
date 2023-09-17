@@ -37,7 +37,7 @@ font-display: swap;
 }
 .jwf-jw-icons-external{
     font-family:"jw-icons-external";
-    src: url("https://raw.githack.com/livrasand/JW-Library-Visualizer-API/main/jw-icons-external-1970474.woff");
+    src: url('https://github.com/livrasand/livrasand.github.io/raw/main/JW-Library-Visualizer-API/jw-icons-external-1970474.woff') format('woff');
     speak:none;
     font-size:24px;
     font-style:normal;
@@ -776,7 +776,7 @@ font-display: swap;
 }
 @font-face{
     font-family:"jw-icons-external";
-    src:url(' + s + ') format("woff"),url(' + b + ') format("truetype");
+    src:url('https://github.com/livrasand/livrasand.github.io/raw/main/JW-Library-Visualizer-API/jw-icons-external-1970474.woff') format("woff"),url('https://github.com/livrasand/livrasand.github.io/raw/main/JW-Library-Visualizer-API/jw-icons-external-1970474.woff') format("truetype");
     font-weight:normal;
     font-style:normal
 }
