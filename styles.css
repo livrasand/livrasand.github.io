@@ -6331,7 +6331,7 @@ picture {
 	flex-direction: column;
 	inline-size: 80vw;
 	justify-content: center;
-	margin-block-start: 120px;
+	margin-block-start: 0px;
 	position: relative;
 	text-align: center
 }
@@ -6372,7 +6372,7 @@ picture {
 .files-wallpaper.svelte-18mfiy4 {
 	border: 1px solid var(--fds-card-stroke-default);
 	border-radius: calc(var(--fds-overlay-corner-radius)*1.5);
-	inline-size: 90%;
+	inline-size: 55%;
 	max-inline-size: 1440px;
 	position: relative
 }
