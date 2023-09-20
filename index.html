@@ -14,10 +14,113 @@
       <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Space+Mono&display=swap" rel="stylesheet">
+<style type="text/css">
+ /* Importa la fuente SF Pro Display Regular */
+@font-face {
+    font-family: 'SF Pro Display Regular';
+    src: url('https://www.apple.com/wss/fonts/SF-Pro-Display/v3/sf-pro-display_regular.woff2') format('woff2');
+    font-weight: normal;
+    font-style: normal;
+}
+
+/* Importa la fuente SF Pro Display Semibold */
+@font-face {
+    font-family: 'SF Pro Display Semibold';
+    src: url('https://www.apple.com/wss/fonts/SF-Pro-Display/v3/sf-pro-display_semibold.woff2') format('woff2');
+    font-weight: 600; /* Peso semibold */
+    font-style: normal;
+}
+
+/* Importa la fuente SF Pro Display Bold */
+@font-face {
+    font-family: 'SF Pro Display Bold';
+    src: url('https://www.apple.com/wss/fonts/SF-Pro-Display/v3/sf-pro-display_bold.woff2') format('woff2');
+    font-weight: bold;
+    font-style: normal;
+}
+
+/* Importa la fuente SF Pro Icons Regular */
+@font-face {
+    font-family: 'SF Pro Icons Regular';
+    src: url('https://www.apple.com/wss/fonts/SF-Pro-Icons/v3/sf-pro-icons_regular.woff2') format('woff2');
+    font-weight: normal;
+    font-style: normal;
+}
+
+/* Importa la fuente SF Pro Icons Semibold */
+@font-face {
+    font-family: 'SF Pro Icons Semibold';
+    src: url('https://www.apple.com/wss/fonts/SF-Pro-Icons/v3/sf-pro-icons_semibold.woff2') format('woff2');
+    font-weight: 600; /* Peso semibold */
+    font-style: normal;
+}
+
+/* Importa la fuente SF Pro Text Regular */
+@font-face {
+    font-family: 'SF Pro Text Regular';
+    src: url('https://www.apple.com/wss/fonts/SF-Pro-Text/v3/sf-pro-text_regular.woff2') format('woff2');
+    font-weight: normal;
+    font-style: normal;
+}
+
+/* Importa la fuente SF Pro Text Semibold */
+@font-face {
+    font-family: 'SF Pro Text Semibold';
+    src: url('https://www.apple.com/wss/fonts/SF-Pro-Text/v3/sf-pro-text_semibold.woff2') format('woff2');
+    font-weight: 600; /* Peso semibold */
+    font-style: normal;
+}
+
+         /* Estilos para el contenedor principal */
+         .container {
+            display: flex; /* Usamos flexbox para alinear los elementos lado a lado */
+            justify-content: space-between; /* Espacio igual entre los elementos */
+            margin: 20px auto; /* Espaciado exterior */
+            max-width: 88%; /* Ancho máximo del contenedor */
+         }
+
+         /* Estilos para cada uno de los elementos */
+         .grid-item {
+            flex-basis: calc(50% - 10px); /* Cada elemento ocupa el 50% del contenedor con un pequeño espacio entre ellos */
+            background-color: #fff;
+            display: flex;
+            flex-direction: column;
+            border-radius: 30px;
+            margin: 0 5px; /* Espacio entre los elementos */
+         }
+
+         /* Estilos para el contenido dentro de los elementos */
+         .grid-item-header {
+            padding: 20px;
+         }
+
+         /* Estilos para el título */
+         .grid-item-headline {
+            color: #D44502;
+            font-size: 16px; /* Tamaño del título reducido a la mitad */
+            line-height: 1.1904761905;
+            font-weight: 600;
+            letter-spacing: 0.011em;
+            font-family: SF Pro Display Regular, SF Pro Icons, Helvetica Neue, Helvetica, Arial, sans-serif;
+         }
+
+         /* Estilos para el párrafo */
+         .grid-item-copy {
+            margin-top: .2em;
+            max-width: 655px;
+            font-size: 14px; /* Tamaño del párrafo reducido a la mitad */
+            line-height: 1.4211026316;
+            font-weight: 600;
+            letter-spacing: 0.012em;
+            font-family: SF Pro Display Regular, SF Pro Icons, Helvetica Neue, Helvetica, Arial, sans-serif;
+            color: #1d1d1f;
+            font-style: normal;
+         }
+      </style>
    </head>
    <body class="scroller">
       <div style="display: contents">
-         <header class="navbar svelte-10xsmud">
+         <header class="navbar svelte-10xsmud" style="background-color: rgba(251,251,253,0.8);backdrop-filter: saturate(180%) blur(20px);transition: background 0.5s cubic-bezier(0.28, 0.11, 0.32, 1);position: fixed;top: 0;right: 20px;left:0;width: 98.72%;height: auto;z-index: 1000;display: block;">
             <nav class="inner svelte-10xsmud">
                <a class="logo svelte-10xsmud" href="" data-sveltekit-preload-data="hover">
                   <picture>
@@ -43,20 +146,22 @@
                </a>  
                <a class="item svelte-10xsmud donate-button" data-sveltekit-preload-data="hover" href="https://www.bonfire.com/goatteewear-10/?utm_source=copy_link&utm_medium=campaign_page&utm_campaign=goatteewear-10&utm_content=stat_statement " target="_blank">
                   <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 16 16" width="16" height="16"><path d="M2 2.75A2.75 2.75 0 0 1 4.75 0c.983 0 1.873.42 2.57 1.232.268.318.497.668.68 1.042.183-.375.411-.725.68-1.044C9.376.42 10.266 0 11.25 0a2.75 2.75 0 0 1 2.45 4h.55c.966 0 1.75.784 1.75 1.75v2c0 .698-.409 1.301-1 1.582v4.918A1.75 1.75 0 0 1 13.25 16H2.75A1.75 1.75 0 0 1 1 14.25V9.332C.409 9.05 0 8.448 0 7.75v-2C0 4.784.784 4 1.75 4h.55c-.192-.375-.3-.8-.3-1.25ZM7.25 9.5H2.5v4.75c0 .138.112.25.25.25h4.5Zm1.5 0v5h4.5a.25.25 0 0 0 .25-.25V9.5Zm0-4V8h5.5a.25.25 0 0 0 .25-.25v-2a.25.25 0 0 0-.25-.25Zm-7 0a.25.25 0 0 0-.25.25v2c0 .138.112.25.25.25h5.5V5.5h-5.5Zm3-4a1.25 1.25 0 0 0 0 2.5h2.309c-.233-.818-.542-1.401-.878-1.793-.43-.502-.915-.707-1.431-.707ZM8.941 4h2.309a1.25 1.25 0 0 0 0-2.5c-.516 0-1 .205-1.43.707-.337.392-.646.975-.879 1.793Z"></path></svg>
-                  <span name="submit">Giving</span>                  
+                  <span name="submit">Tienda</span>                  
                </a>                                      
             </nav>            
          </header>
          <section id="design-section" class="page-section  svelte-xz0hqw">
             <div class="page-section-inner svelte-xz0hqw">               
-               <div class="header-chip svelte-1p6zve4">
-                  <span class="violator-frameless typography-family-violator">Disponible próximamente este año</span>
+               <div class="header-chip svelte-1p6zve4" style="margin-top:20px;">
+                  <span class="violator-frameless typography-family-violator" style="font-size: 17px;font-weight: 400;letter-spacing: -0.022em;color: #D44502;">Disponible próximamente este año</span>
                </div>
-               <h2 style="font-size: 70px;line-height: .8;font-weight: 600;letter-spacing: -0.0018em;">Kingdom Hall Attendant</h2>
-               <p class="" style="font-size: 23px;line-height: 1.381002381;font-weight: 700;letter-spacing: .011em;margin-top: 5px;text-transform: uppercase;background-image: linear-gradient(90deg,#ec597f,#e4551a 90%); -webkit-background-clip: text;-webkit-text-fill-color: transparent;">Edition 1</p>
-               <p style="margin-top:-10px;text-align: justify;">Una aplicación multiplataforma desarrollada especialmente para ancianos y siervos ministeriales, para elaborar y mantener todas las asignaciones y responsabilidades de la congregación. Incluye funciones de seguridad y privacidad, para proteger la información de los miembros de la congregación. Disfruta de Kingdom Hall Attendant sin límites en cualquier sistema operativo, elige Kingdom Hall Attendant, gratuito y sin publicidad.</p>
-               <div class="buttons-spacer">
-                  <a role="button" href="https://github.com/livrasand/Kingdom-Hall-Attendant" class="button style-accent   svelte-nqc07q" style="cursor:pointer;background-image: linear-gradient(90deg,#ec597f,#e4551a 90%);border: none;">Ayuda con el desarrollo
+               <h2 style="opacity: 0.936709;background-color: rgba(0,0,0,0);display: flex;position: relative;z-index: 1;font-size: 90px;line-height: 1.484375;font-weight: 700;letter-spacing: -0.0045em;font-family: SF Pro Display Regular,SF Pro Icons,Helvetica Neue,Helvetica,Arial,sans-serif;color: rgb(10, 10, 8);">Kingdom Hall Attendant</h2>
+               <p class="" style="font-size: 32px;line-height: 1.381002381;font-weight: 700;letter-spacing: .011em;margin-top: -35px;text-transform: uppercase;background-image: -webkit-linear-gradient(0deg,#ff279c 25%,#ff981f 75%); -webkit-background-clip: text;-webkit-text-fill-color: transparent;">Edition 1</p>
+
+               <p style="margin-top: 40px;max-width: 865px;margin-left: auto;margin-right: auto;font-size: 28px;line-height: 1.2858342857;font-weight: 400;letter-spacing: .007em;font-family: SF Pro Display Regular,SF Pro Icons,Helvetica Neue,Helvetica,Arial,sans-serif;">Una aplicación multiplataforma, lo que significa que trabaja sin problemas en cualquier sistema operativo. Diseñada con esmero especialmente para ancianos y sus diligentes siervos ministeriales, así como para los superintendentes de circuito. Ha sido meticulosamente desarrollada para simplificar, elaborar y fortalecer la gestión de todas las asignaciones y responsabilidades de la congregación. Además, hará que el trabajo de los superintendentes de circuito sea mucho más eficiente al facilitar la recopilación de registros y estadísticas durante sus visitas a las congregaciones.</p>
+
+                <div class="buttons-spacer">
+                  <a role="button" href="https://github.com/livrasand/Kingdom-Hall-Attendant" class="button style-accent   svelte-nqc07q" style="cursor:pointer;border-radius: 980px;background: #0071e3;color: #fff;border-color: rgba(0,0,0,0);display: inline-block;font-size: 16px;line-height: 1.33337;font-weight: 400;letter-spacing: -.01em;min-width: 25px;padding-left: 20px;padding-right: 20px;padding-top: 6px;padding-bottom: 6px;--sk-button-margin-horizontal: 10px;--sk-button-margin-vertical: 10px;">Ayuda con el desarrollo en GitHub
                   </a>  
                </div>   
                <div class="page-section-inner svelte-xz0hqw">
@@ -91,12 +196,46 @@
                   </div>
                </div>
             </div>
+
+
+<div class="grid-item span-12-col h-align-center grid-item-draw" data-anim-scroll-group="draw" data-analytics-section-engagement="name:draw" style="--image-shadow: 117px;--tile-content-padding: 39px;grid-column: span 12;background-color: #fff;display: flex;flex-direction: column;position: relative;box-sizing: border-box;overflow: hidden;border-radius: 30px;min-height: auto;z-index: 0;width: 88%;text-align: left;margin-top: 40px;margin-bottom: 10px;">
+            <div class="grid-item-header" style="ox-sizing: border-box;padding: 40px;padding-bottom: 0;">
+               <h3 class="grid-item-headline typography-grid-item-headline" style="color: #D44502;font-size: 21px;line-height: 1.1904761905;font-weight: 600;letter-spacing: .011em;font-family: SF Pro Display Regular,SF Pro Icons,Helvetica Neue,Helvetica,Arial,sans-serif;">
+                  🔒 Máxima seguridad y privacidad
+               </h3>
+               <p class="grid-item-copy typography-grid-item-copy" style="margin-top: .2em;max-width: 655px;font-size: 19px;line-height: 1.4211026316;font-weight: 600;letter-spacing: .012em;font-family: SF Pro Display Regular,SF Pro Icons,Helvetica Neue,Helvetica,Arial,sans-serif;color: #1d1d1f;font-style: normal;">Utiliza una encriptación avanzada para garantizar que los datos de la congregación y de los publicadores permanezcan confidenciales y seguros. No se requiere conexión a servidores externos, como Dropbox o Google Drive, ni la creación de cuentas, lo que asegura que toda la información se mantenga localmente y fuera del alcance de terceros no autorizados.</p>
+            </div>
+         </div>
+
+ <div class="container" style="text-align:left;">
+         <!-- Primer elemento -->
+         <div class="grid-item" style="margin-right: 20px;">
+            <div class="grid-item-header">
+               <h3 class="grid-item-headline typography-grid-item-headline" style="color: #D44502;font-size: 21px;line-height: 1.1904761905;font-weight: 600;letter-spacing: .011em;font-family: SF Pro Display Regular,SF Pro Icons,Helvetica Neue,Helvetica,Arial,sans-serif;">
+                  🎉 Sin publicidad, totalmente gratuito
+               </h3>
+               <p class="grid-item-copy typography-grid-item-copy" style="margin-top: .2em;max-width: 655px;font-size: 19px;line-height: 1.4211026316;font-weight: 600;letter-spacing: .012em;font-family: SF Pro Display Regular,SF Pro Icons,Helvetica Neue,Helvetica,Arial,sans-serif;color: #1d1d1f;font-style: normal;">En Kingdom Hall Attendant, nos enorgullece ofrecer una experiencia sin distracciones ni anuncios molestos. La aplicación es completamente gratuita y no contiene publicidad, permitiéndote enfocarte plenamente en las tareas congregacionales.</p>
+            </div>
+         </div>
+
+         <!-- Segundo elemento (copia del primero) -->
+         <div class="grid-item">
+            <div class="grid-item-header">
+               <h3 class="grid-item-headline typography-grid-item-headline" style="color: #D44502;font-size: 21px;line-height: 1.1904761905;font-weight: 600;letter-spacing: .011em;font-family: SF Pro Display Regular,SF Pro Icons,Helvetica Neue,Helvetica,Arial,sans-serif;">
+                  🚫 Sin necesidad de cuentas
+               </h3>
+               <p class="grid-item-copy typography-grid-item-copy" style="margin-top: .2em;max-width: 655px;font-size: 19px;line-height: 1.4211026316;font-weight: 600;letter-spacing: .012em;font-family: SF Pro Display Regular,SF Pro Icons,Helvetica Neue,Helvetica,Arial,sans-serif;color: #1d1d1f;font-style: normal;">Olvídate de tediosos registros o creación de cuentas. Kingdom Hall Attendant se destaca por su simplicidad; puedes comenzar a usarlo de inmediato, sin trabas ni complicaciones.</p>
+            </div>
+         </div>
+      </div>
          </section>
-         <section id="design-section" class="page-section  svelte-xz0hqw" style="background-color:hsl(0, 0%, 95%);">
+
+         <section id="design-section" class="page-section  svelte-xz0hqw">
             <div class="page-section-inner svelte-xz0hqw">
-               <h2>Attendant Zoom</h2>
-               <p class="" style="font-size: 23px;line-height: 1.381002381;font-weight: 700;letter-spacing: .011em;margin-top: -10px;background-image: linear-gradient(90deg, rgba(9,9,121,1) 0%, rgba(0,212,255,1) 60%); -webkit-background-clip: text;-webkit-text-fill-color: transparent;">2023 Summer Edition</p>
-               <p>Comparte multimedia durante las reuniones en plataformas de videoconferencias o en el Salón del Reino, adaptativa para las reuniones híbridas, remotas o en persona. Gratuito y sin publicidad.</p>       
+               <h2 style="font-size:70px;">Attendant Zoom</h2>
+               <p class="" style="font-size: 33px;line-height: 1.381002381;font-weight: 700;letter-spacing: .011em;margin-top: -10px;background-image: linear-gradient(90deg, rgba(9,9,121,1) 0%, rgba(0,212,255,1) 60%); -webkit-background-clip: text;-webkit-text-fill-color: transparent;">2023 Summer Edition</p>
+               <p style="margin-top: 40px;max-width: 665px;margin-left: auto;margin-right: auto;font-size:20px;line-height: 1.2858342857;font-weight: 400;letter-spacing: .007em;font-family: SF Pro Display Regular,SF Pro Icons,Helvetica Neue,Helvetica,Arial,sans-serif;">Facilita la compartición de contenido multimedia durante reuniones, ya sea en plataformas de videoconferencias o en el Salón del Reino, ofreciendo una adaptación perfecta para encuentros híbridos, remotos o presenciales. Nuestra aplicación es completamente gratuita y no incluye publicidad.</p>
+<p style="margin-top: 40px;max-width: 665px;margin-left: auto;margin-right: auto;font-size:20px;line-height: 1.2858342857;font-weight: 400;letter-spacing: .007em;font-family: SF Pro Display Regular,SF Pro Icons,Helvetica Neue,Helvetica,Arial,sans-serif;margin-bottom: 60px;">Exclusivamente disponible para Windows, esta aplicación se presenta como una excelente alternativa a JW Library. Está diseñada especialmente para aquellos dispositivos que no cuentan con la compatibilidad de JW Library, no tienen acceso a una tienda de aplicaciones o experimentan lentitud o bloqueos al usar JW Library en sus computadoras. Simplifica tus reuniones y estudios con nuestra herramienta de confianza.</p>       
                <div class="buttons-spacer">
                   <a role="button" href="https://github.com/livrasand/GoAttendant-Website/releases/download/v15.07.2023/Attendant.Zoom.Setup.exe" class="button style-accent   svelte-nqc07q" style="cursor:pointer;">Descargar para Windows
                   </a>                  
