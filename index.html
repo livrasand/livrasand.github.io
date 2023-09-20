@@ -14,6 +14,18 @@
       <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Space+Mono&display=swap" rel="stylesheet">
+<script type="text/javascript">
+   // Función para redirigir a la versión móvil si se cumple la condición
+  function redirigirAMovil() {
+    if (window.innerWidth <= 768) { // Puedes ajustar este valor según tus necesidades
+      window.location.href = "/m.home.html"; // Ruta a la versión móvil
+    }
+  }
+
+  // Llama a la función cuando se cargue la página
+  window.onload = redirigirAMovil;
+
+</script>
 <style type="text/css">
  /* Importa la fuente SF Pro Display Regular */
 @font-face {
