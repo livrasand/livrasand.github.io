@@ -5,7 +5,7 @@ let publicationsContainer; // Declarar publicationsContainer en el ámbito globa
 publicationsContainer = document.getElementById('publications-container');
 
 // Realiza una solicitud HTTP para obtener el JSON
-fetch('https://raw.githubusercontent.com/livrasand/Reviw_Channel/main/publications.json')
+fetch('https://raw.githubusercontent.com/livrasand/Reviw/main/repository/publications.json')
   .then(response => response.json())
   .then(data => {
     jsonData = data; // Asigna los datos JSON a la variable global jsonData
