@@ -1,0 +1,86 @@
+<head><meta name="signature" content=""> </head><body>
+	<p id="p1" data-pid="1" class="st"><span id="page2" class="pageNum" aria-hidden="true" data-no="2" data-before-text="2"></span><strong>GUIA PARA O PRESIDENTE DA REUNIÃO PÚBLICA</strong></p>
+
+	<p id="p2" data-pid="2" class="sb"><strong>(Inicie com um sorriso no rosto)</strong></p>
+
+	<p id="p3" data-pid="3" class="sb">Sejam todos bem vindos, dentro de um minutos daremos início a nossa reunião. Pedimos que todos se digiram aos seus lugares.</p>
+
+	<p id="p4" data-pid="4" class="sb"><strong>(A hora exata)</strong></p>
+
+	<div class="gen-field" id="p26" data-pid="26">
+<label for="tt13" id="tt24">Por gentileza, os que puderem trocar de posição e se levantarem para que possamos entoar juntos um cântico. Após o irmão:</label><input class="du-borderStyle--1" type="text" id="tt25" name="text-12"> 
+	</div>
+<p>fará a oração inicial.</p>
+
+	<div class="gen-field" id="p5" data-pid="5"><label for="tt1" id="tt2">O cântico que entoaremos será o de número:</label><input class="du-borderStyle--1" type="text" id="tt3" name="text-1">
+
+	<div class="gen-field" id="p6" data-pid="6"><label for="tt2" id="tt4">Possui o seguinte tema:</label><input class="du-borderStyle--1" type="text" id="tt5" name="text-2">
+
+	<div class="gen-field" id="p7" data-pid="7">
+<label for="tt3" id="tt6">e tem como base o texto bíblico de:</label>
+<input class="du-borderStyle--1" type="text" id="tt7" name="text-3">
+	</div>
+	</div>
+	</div>
+
+	<p id="p24" data-pid="24" class="sb"><strong>(Não peça a assistência para inclinar o rosto, pois não é apropriado fazer isso em público. Apenas inicie com a oração. Observe a sugestão dada em <a class="xt" data-xtid="1" href="jwpub://p/T:1976680/"><em>w77 1/2 pág. 68</em></a>)</strong></p>
+
+	<h2 class="shadedHeader treasures" id="p25" data-pid="25"><strong>DISCURSO PÚBLICO</strong></h2>
+
+	<p id="p8" data-pid="8" class="sc"><strong>(Apresente o irmão que fará o discurso)</strong></p>
+
+	<div class="gen-field" id="p9" data-pid="9">
+<label for="tt4" id="tt8">O irmão:</label>
+<input class="du-borderStyle--1" type="text" id="tt9" name="text-4">
+
+	<div class="gen-field" id="p10" data-pid="10">
+<label for="tt5" id="tt10">que nos visita da congregação:</label>
+<input class="du-borderStyle--1" type="text" id="tt11" name="text-5">
+
+	<div class="gen-field" id="p11" data-pid="11">
+<label for="tt6" id="tt12">pronunciará o discurso intitulado:</label>
+<input class="du-borderStyle--1" type="text" id="tt13" name="text-6">
+
+	<div class="gen-field" id="p12" data-pid="12">
+<label for="tt7" id="tt14">Prestemos atenção ao irmão:</label>
+<input class="du-borderStyle--1" type="text" id="tt15" name="text-7">
+	</div>
+	</div>
+	</div>
+	</div>
+	
+	<p id="p13" data-pid="13" class="sc"><strong>(Ao finalizar o discurso, continue...)</strong></p>
+
+	<div class="gen-field" id="p14" data-pid="14">
+<label for="tt8" id="tt16">Agradecemos o anosso magnífico e instrutor Jeová por esta edificante informação, e também pelo seu proferimento irmão:</label>
+<input class="du-borderStyle--1" type="text" id="tt17" name="text-8">
+
+		<div class="gen-field" id="p15" data-pid="15">
+<label for="tt9" id="tt18">Toda semana é apresentado um discruso bíblico com um tema diferente. Na próxima semana o tema será:</label><input class="du-borderStyle--1" type="text" id="tt19" name="text-9">
+	
+	<p id="p16" data-pid="16" class="sb">Todos estão convidados a estarem presentes.</p>
+
+	<p id="p17" data-pid="17" class="sb"><strong>(Se houver algum anúncio aprovado pelo Coordenador do Corpo de Ancião, poderá ser feito neste momento.)</strong></p>
+
+	<div class="gen-field"><label for="tt10" id="tt20" class="dc-screenReaderText">Anotações</label><textarea id="tt21" class="du-borderStyle--1" name="textarea-1"></textarea></div>
+	</div>
+	</div>
+
+	<p id="p18" data-pid="18" class="sb"><strong>(Caso não possua anúncio, poderá dar sequência...)</strong></p>
+
+<h2 class="shadedHeader treasures" id="p19" data-pid="19"><strong>Estudo de <em>A Sentinela</em></strong></h2>
+	
+	<div class="gen-field" id="p20" data-pid="20">
+<label for="tt11" id="tt22">O estudo da revista <em>A Sentinela</em> está a cargo do irmão: </label><input class="du-borderStyle--1" type="text" id="tt23" name="text-10">
+
+	<div class="gen-field" id="p21" data-pid="21">
+<label for="tt12" id="tt24">O leitor será feito pelo irmão:</label>
+<input class="du-borderStyle--1" type="text" id="tt25" name="text-11">
+</div>
+</div>
+
+	<p id="p22" data-pid="22" class="sb"><strong>(Por favor, não mencione o tema que será estudado e nem o número do cancioneiro, não mencione o tema que será estudado e nem o cântico. O anúncio será feito pelo dirigente de <em>A Sentileza</em>.)</strong></p>
+
+	<div class="closingContent"><p id="p23" data-pid="23" class="se"><strong>Fonte de matéria para este guia:</strong> <a class="xt" data-xtid="2" href="jwpub://p/T:202007165/"><em>km 5/07 pág. 3</em></a></p>
+	</div>
+</body>
