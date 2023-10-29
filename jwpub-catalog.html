@@ -11,6 +11,47 @@
       <meta content="#005fb8" name="theme-color">
       <link rel="icon" href="https://raw.githack.com/livrasand/livrasand.github.io/main/cdn/images/favicon.png" />
       <link rel="stylesheet" type="text/css" href="styles.css">
+      <style type="text/css">
+         code, tt {
+  padding: .2em .4em;
+  margin: 0;
+  font-size: 85%;
+  white-space: break-spaces;
+  background-color: rgba(175,184,193,.2);
+  border-radius: 6px;
+}
+code, pre, samp, tt {
+  font-family: ui-monospace,SFMono-Regular,SF Mono,Menlo,Consolas,Liberation Mono,monospace;
+  font-size: 12px;
+}
+code, kbd, pre, samp {
+  font-family: monospace;
+  font-size: 1em;
+}
+
+.f5 {
+  font-size: 14px !important;
+}
+.p-3 {
+  padding: 16px !important;
+}
+.my-3 {
+  margin-top: 16px !important;
+  margin-bottom: 16px !important;
+}
+.color-border-accent-emphasis {
+  border-color: #0969da !important;
+}
+.color-bg-accent {
+  background-color: #ddf4ff !important;
+}
+.rounded-1 {
+  border-radius: 4px !important;
+}
+.border {
+  border: 1px solid #d0d7de !important;
+}
+      </style>
    </head>
    <body class="scroller" style="background: #ffffff;">
       <div style="display: contents">
@@ -40,14 +81,28 @@
             <h2 class="text-block type-title-large  svelte-zxj483" style="font-weight: 600;font-size: 5rem;">Crea archivos JWPUB increíbles y más rápido con Reviw</h2>
 <p style="color: var(--fds-text-secondary);font-size: 1.6rem;font-weight: 400;margin-block: 12px 24px;">Somos el administrador de JWPUBs personalizados para JW Library que hace que sea extremadamente sencillo encontrar, descargar y mantener JWPUBs actualizados.</p>
 
-<div class="search-container" style="margin-top:-15px;">
-  <input type="text" id="search-input" placeholder="Buscar...">
+<div class="search-container" style="margin-top: -15px;">
+  <input type="text" id="search-input" placeholder="Buscar..." onkeydown="if(event.key === 'Enter') searchPublications()">
   <button onclick="searchPublications()">Buscar</button>
-  <p style="margin-top: 10px;margin-left: 4px;">Presiona <kbd>/</kbd> para buscar</p>
+  <p style="margin-top: 10px; margin-left: 4px;">Presiona <kbd>/</kbd> para activar el buscador. Escribe <code>:ayuda:</code> y presiona <kbd>Enter</kbd>.</p>
 </div>
 
+
             <section class="download-sources svelte-1omhc40">
-               <div id="publications-container"></div>
+               <div id="help-text" class="help-text-container" style="display: none;margin-bottom: 15px;width: 75%;">
+                  <p>Usa <kbd>Esc</kbd> y luego presiona <kbd>Enter</kbd> para salir.</p>
+  <h3 style="font-size: 32px;font-weight: 600;">Descripción de la sintaxis del buscador</h3>
+  <p style="margin-bottom: 10px;font-size: 24px;color: #656d76;">Puedes crear consultas de búsqueda para los resultados que quieras con filtros de archivos especializados.</p>
+  <hr style="border: 1px solid #d8dee4;margin-bottom: 15px;">
+  <div class="ghd-spotlight ghd-spotlight-note border rounded-1 my-3 p-3 f5 color-border-accent-emphasis color-bg-accent">
+<p><strong>Nota:</strong> Las sintaxis de búsqueda aún se encuentran en desarrollo y en etapa Alfa, puede que presenten fallas o no funcionen, solicitamos sean pacientes, en las próximas semanas se van a ir actualizando.</p>
+</div>
+  <p style="font-size: 16px;line-height: 1.5;"><code>:popular:</code> para mostrar los resultados de búsqueda del más popular al menos popular.</p><br>
+  <p style="font-size: 16px;line-height: 1.5;"><code>:calidad:</code> para mostrar los resultados de búsqueda del de mayor calidad, compatibilidad y la menor cantidad de fallas, a de menos calidad.</p><br>
+  <p style="font-size: 16px;line-height: 1.5;"><code>:mantenimiento:</code> muestra en los resultados de búsqueda a los archivos que se le han dado mantenimiento o actualizado más recientemente, o al más nuevo en JWPUB Catalog.</p>
+</div>
+               <div id="publications-container" style="display: block;"></div>               
+
                <details style="text-align: left;" data-view-component="true" class="details-overlay">
   <summary role="button" data-view-component="true" class="btn-primary btn-sm btn">    Lee nuestro mensaje de uso legítimo (Carta legal)
   </summary>
@@ -88,11 +143,41 @@ Todas las publicaciones creadas por GoAttendant Team dan crédito al propietario
       <script>
 document.addEventListener('keydown', function (e) {
   if (e.key === '/') {
-    e.preventDefault(); 
+    e.preventDefault();
     var searchInput = document.getElementById('search-input');
-    searchInput.focus(); 
+    searchInput.focus();
   }
 });
+
+document.addEventListener('keydown', function (e) {
+  if (e.key === 'Enter') {
+    var searchInput = document.getElementById('search-input');
+
+    if (searchInput.value.toLowerCase() === ':ayuda:') {
+      e.preventDefault();
+      var helpText = document.getElementById('help-text');
+    var publicationsContainer = document.getElementById('publications-container');
+      helpText.style.display = 'block';
+      searchInput.value = '';
+    publicationsContainer.style.display = 'none';
+    }
+  }
+});
+
+document.addEventListener('keydown', function (e) {
+  if (e.key === 'Escape') {
+    var searchInput = document.getElementById('search-input');
+    var helpText = document.getElementById('help-text');
+    var publicationsContainer = document.getElementById('publications-container');
+
+    searchInput.value = '';
+    helpText.style.display = 'none';
+    publicationsContainer.style.display = 'block';
+  }
+});
+
+
+
 </script>
 
    </body>
