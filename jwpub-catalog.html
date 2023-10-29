@@ -4,16 +4,15 @@
       <meta charset="utf-8" />
       <meta content="width=device-width, initial-scale=1" name="viewport" />
       <meta http-equiv="content-security-policy" content="">
-      <title>JWPUB Catalog: catálogo de archivos para JW Library</title>
+      <title>JWPUB Catalog — Home</title>
       <meta content="Descubre el innovador mundo de GoAttendant: Attendant Zoom, Kingdom Hall Attendant y soporte técnico." name="description">
       <meta content="Attendant Zoom, Kingdom Hall Attendant, GoAttendant, GoAttendant Team, JWPUB Catalog, JWPUB." name="keywords">
       <meta content="GoAttendant Team" name="author">
       <meta content="#005fb8" name="theme-color">
       <link rel="icon" href="https://raw.githack.com/livrasand/livrasand.github.io/main/cdn/images/favicon.png" />
       <link rel="stylesheet" type="text/css" href="styles.css">
-      <link rel="stylesheet" type="text/css" href="colors.css">
    </head>
-   <body class="scroller">
+   <body class="scroller" style="background: #ffffff;">
       <div style="display: contents">
          <header class="navbar svelte-10xsmud">
             <nav class="inner svelte-10xsmud">
@@ -38,17 +37,18 @@
             </nav>
          </header>
          <main class="download-page svelte-1omhc40">
-            <h2 class="text-block type-title-large  svelte-zxj483">Bienvenido</h2>
-<p style="color: var(--fds-text-secondary);font-size: 1.6rem;font-weight: 400;margin-block: 12px 24px;">El administrador de JWPUBs personalizados para JW Library que hace que sea extremadamente sencillo encontrar, instalar y mantener JWPUBs actualizados. <b></b>¿Quieres crear un JWPUB personalizado? ¡Usa <a href="https://github.com/livrasand/Reviw">Reviw</a>!</b> Le recomendamos usar el buscador de abajo y buscar JWPUB's similares. Si encuentra uno que se asemeje al suyo, le sugerimos considerar la posibilidad de mejorar el JWPUB existente en lugar de crear uno nuevo. Fomentamos la colaboración y la mejora continua, especialmente si su JWPUB es de naturaleza simple. Ser un mantenedor y añadir funcionalidades o ajustar un JWPUB existente puede ser una opción valiosa. Su contribución será apreciada.</p>
-<div class="search-container">
-  <input type="text" id="search-input" placeholder="Buscar publicaciones...">
+            <h2 class="text-block type-title-large  svelte-zxj483" style="font-weight: 600;font-size: 5rem;">Crea archivos JWPUB increíbles y más rápido con Reviw</h2>
+<p style="color: var(--fds-text-secondary);font-size: 1.6rem;font-weight: 400;margin-block: 12px 24px;">Somos el administrador de JWPUBs personalizados para JW Library que hace que sea extremadamente sencillo encontrar, descargar y mantener JWPUBs actualizados.</p>
+
+<div class="search-container" style="margin-top:-15px;">
+  <input type="text" id="search-input" placeholder="Buscar...">
   <button onclick="searchPublications()">Buscar</button>
+  <p style="margin-top: 10px;margin-left: 4px;">Presiona <kbd>/</kbd> para buscar</p>
 </div>
 
             <section class="download-sources svelte-1omhc40">
                <div id="publications-container"></div>
-               <p class="svelte-1omhc40">¿Tienes problemas para descargar alguna publicación o encontraste algún error? Háznoslo saber en <b>jwpubcatalog@gmail.com</b>.</p>
-               <details data-view-component="true" class="details-overlay">
+               <details style="text-align: left;" data-view-component="true" class="details-overlay">
   <summary role="button" data-view-component="true" class="btn-primary btn-sm btn">    Lee nuestro mensaje de uso legítimo (Carta legal)
   </summary>
   <div data-view-component="true">
@@ -85,5 +85,15 @@ Todas las publicaciones creadas por GoAttendant Team dan crédito al propietario
          </main>
       </div>
       <script src="publications.js"></script>
+      <script>
+document.addEventListener('keydown', function (e) {
+  if (e.key === '/') {
+    e.preventDefault(); 
+    var searchInput = document.getElementById('search-input');
+    searchInput.focus(); 
+  }
+});
+</script>
+
    </body>
 </html>
