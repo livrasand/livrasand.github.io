@@ -7216,228 +7216,228 @@ this.PrimaryPane = function(t) {
 	}, r.default = s
 }, function(t, r, e) {
 	"use strict";
-	r.a = "https://cdn.jsdelivr.net/gh/livrasand/livrasand.github.io@tree/main/JW-Library-Visualizer-API/fonts/jw-icons-external-1970474.woff"
+	r.a = "https://github.com/livrasand/livrasand.github.io/raw/main/JW-Library-Visualizer-API/fonts/jw-icons-external-1970474.woff"
 }, function(t, r, e) {
 	"use strict";
-	r.a = "https://cdn.jsdelivr.net/gh/livrasand/livrasand.github.io@tree/main/JW-Library-Visualizer-API/fonts/jw-icons-external-1970474.ttf"
+	r.a = "https://github.com/livrasand/livrasand.github.io/raw/main/JW-Library-Visualizer-API/fonts/jw-icons-external-1970474.ttf"
 }, function(t, r, e) {
 	"use strict";
-	r.a = "https://cdn.jsdelivr.net/gh/livrasand/livrasand.github.io@tree/main/JW-Library-Visualizer-API/images/spinner--small@2x.png"
+	r.a = "https://github.com/livrasand/livrasand.github.io/raw/main/JW-Library-Visualizer-API/images/spinner--small@2x.png"
 }, function(t, r, e) {
 	"use strict";
-	r.a = "https://cdn.jsdelivr.net/gh/livrasand/livrasand.github.io@tree/main/JW-Library-Visualizer-API/images/spinner--default@2x.png"
+	r.a = "https://github.com/livrasand/livrasand.github.io/raw/main/JW-Library-Visualizer-API/images/spinner--default@2x.png"
 }, function(t, r) {
 	t.exports = '<svg id="Layer_1" data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 48 48"><defs><style>.cls-1{fill:#799fcc;}.cls-2{fill:#fff;}</style></defs><title>wol-trademark-color</title><rect id="Rectangle-path" class="cls-1" width="38" height="38"/><path id="Shape" class="cls-2" d="M30.55,7.13H25.34V9.79H24V7.13h-2.6V9.79h-1.3V7.13h-2.6V9.79H16.23V7.13h-2.6V9.79h-1.3V7.13H7.13v9.31h1.3v1.33h1.3v13.3H28V17.77h1.3V16.44h1.3Z"/></svg>'
 }, function(t, r, e) {
 	"use strict";
-	r.a = "https://cdn.jsdelivr.net/gh/livrasand/livrasand.github.io@tree/main/JW-Library-Visualizer-API/fonts/NotoSans-Regular.woff"
+	r.a = "https://github.com/livrasand/livrasand.github.io/raw/main/JW-Library-Visualizer-API/fonts/NotoSans-Regular.woff"
 }, function(t, r, e) {
 	"use strict";
-	r.a = "https://cdn.jsdelivr.net/gh/livrasand/livrasand.github.io@tree/main/JW-Library-Visualizer-API/fonts/NotoSans-Italic.woff"
+	r.a = "https://github.com/livrasand/livrasand.github.io/raw/main/JW-Library-Visualizer-API/fonts/NotoSans-Italic.woff"
 }, function(t, r, e) {
 	"use strict";
-	r.a = "https://cdn.jsdelivr.net/gh/livrasand/livrasand.github.io@tree/main/JW-Library-Visualizer-API/fonts/NotoSans-Bold.woff"
+	r.a = "https://github.com/livrasand/livrasand.github.io/raw/main/JW-Library-Visualizer-API/fonts/NotoSans-Bold.woff"
 }, function(t, r, e) {
 	"use strict";
-	r.a = "https://cdn.jsdelivr.net/gh/livrasand/livrasand.github.io@tree/main/JW-Library-Visualizer-API/fonts/NotoSans-BoldItalic.woff"
+	r.a = "https://github.com/livrasand/livrasand.github.io/raw/main/JW-Library-Visualizer-API/fonts/NotoSans-BoldItalic.woff"
 }, function(t, r, e) {
 	"use strict";
-	r.a = "https://cdn.jsdelivr.net/gh/livrasand/livrasand.github.io@tree/main/JW-Library-Visualizer-API/fonts/NotoSerif-Regular.woff"
+	r.a = "https://github.com/livrasand/livrasand.github.io/raw/main/JW-Library-Visualizer-API/fonts/NotoSerif-Regular.woff"
 }, function(t, r, e) {
 	"use strict";
-	r.a = "https://cdn.jsdelivr.net/gh/livrasand/livrasand.github.io@tree/main/JW-Library-Visualizer-API/fonts/NotoSerif-Italic.woff"
+	r.a = "https://github.com/livrasand/livrasand.github.io/raw/main/JW-Library-Visualizer-API/fonts/NotoSerif-Italic.woff"
 }, function(t, r, e) {
 	"use strict";
-	r.a = "https://cdn.jsdelivr.net/gh/livrasand/livrasand.github.io@tree/main/JW-Library-Visualizer-API/fonts/NotoSerif-Bold.woff"
+	r.a = "https://github.com/livrasand/livrasand.github.io/raw/main/JW-Library-Visualizer-API/fonts/NotoSerif-Bold.woff"
 }, function(t, r, e) {
 	"use strict";
-	r.a = "https://cdn.jsdelivr.net/gh/livrasand/livrasand.github.io@tree/main/JW-Library-Visualizer-API/fonts/NotoSerif-BoldItalic.woff"
+	r.a = "https://github.com/livrasand/livrasand.github.io/raw/main/JW-Library-Visualizer-API/fonts/NotoSerif-BoldItalic.woff"
 }, function(t, r, e) {
 	"use strict";
-	r.a = "https://cdn.jsdelivr.net/gh/livrasand/livrasand.github.io@tree/main/JW-Library-Visualizer-API/fonts/NotoSansArmenian-Regular.woff"
+	r.a = "https://github.com/livrasand/livrasand.github.io/raw/main/JW-Library-Visualizer-API/fonts/NotoSansArmenian-Regular.woff"
 }, function(t, r, e) {
 	"use strict";
-	r.a = "https://cdn.jsdelivr.net/gh/livrasand/livrasand.github.io@tree/main/JW-Library-Visualizer-API/fonts/NotoSansArmenian-Bold.woff"
+	r.a = "https://github.com/livrasand/livrasand.github.io/raw/main/JW-Library-Visualizer-API/fonts/NotoSansArmenian-Bold.woff"
 }, function(t, r, e) {
 	"use strict";
-	r.a = "https://cdn.jsdelivr.net/gh/livrasand/livrasand.github.io@tree/main/JW-Library-Visualizer-API/fonts/NotoSerifArmenian-Regular.woff"
+	r.a = "https://github.com/livrasand/livrasand.github.io/raw/main/JW-Library-Visualizer-API/fonts/NotoSerifArmenian-Regular.woff"
 }, function(t, r, e) {
 	"use strict";
-	r.a = "https://cdn.jsdelivr.net/gh/livrasand/livrasand.github.io@tree/main/JW-Library-Visualizer-API/fonts/NotoSerifArmenian-Bold.woff"
+	r.a = "https://github.com/livrasand/livrasand.github.io/raw/main/JW-Library-Visualizer-API/fonts/NotoSerifArmenian-Bold.woff"
 }, function(t, r, e) {
 	"use strict";
-	r.a = "https://cdn.jsdelivr.net/gh/livrasand/livrasand.github.io@tree/main/JW-Library-Visualizer-API/fonts/NotoSansGeorgian-Regular.woff"
+	r.a = "https://github.com/livrasand/livrasand.github.io/raw/main/JW-Library-Visualizer-API/fonts/NotoSansGeorgian-Regular.woff"
 }, function(t, r, e) {
 	"use strict";
-	r.a = "https://cdn.jsdelivr.net/gh/livrasand/livrasand.github.io@tree/main/JW-Library-Visualizer-API/fonts/NotoSansGeorgian-Bold.woff"
+	r.a = "https://github.com/livrasand/livrasand.github.io/raw/main/JW-Library-Visualizer-API/fonts/NotoSansGeorgian-Bold.woff"
 }, function(t, r, e) {
 	"use strict";
-	r.a = "https://cdn.jsdelivr.net/gh/livrasand/livrasand.github.io@tree/main/JW-Library-Visualizer-API/fonts/NotoSerifGeorgian-Regular.woff"
+	r.a = "https://github.com/livrasand/livrasand.github.io/raw/main/JW-Library-Visualizer-API/fonts/NotoSerifGeorgian-Regular.woff"
 }, function(t, r, e) {
 	"use strict";
-	r.a = "https://cdn.jsdelivr.net/gh/livrasand/livrasand.github.io@tree/main/JW-Library-Visualizer-API/fonts/NotoSerifGeorgian-Bold.woff"
+	r.a = "https://github.com/livrasand/livrasand.github.io/raw/main/JW-Library-Visualizer-API/fonts/NotoSerifGeorgian-Bold.woff"
 }, function(t, r, e) {
 	"use strict";
-	r.a = "https://cdn.jsdelivr.net/gh/livrasand/livrasand.github.io@tree/main/JW-Library-Visualizer-API/fonts/NotoSerifKannada-Regular.woff"
+	r.a = "https://github.com/livrasand/livrasand.github.io/raw/main/JW-Library-Visualizer-API/fonts/NotoSerifKannada-Regular.woff"
 }, function(t, r, e) {
 	"use strict";
-	r.a = "https://cdn.jsdelivr.net/gh/livrasand/livrasand.github.io@tree/main/JW-Library-Visualizer-API/fonts/NotoSerifKannada-Bold.woff"
+	r.a = "https://github.com/livrasand/livrasand.github.io/raw/main/JW-Library-Visualizer-API/fonts/NotoSerifKannada-Bold.woff"
 }, function(t, r, e) {
 	"use strict";
-	r.a = "https://cdn.jsdelivr.net/gh/livrasand/livrasand.github.io@tree/main/JW-Library-Visualizer-API/fonts/NotoSansArabic-Regular.ttf"
+	r.a = "https://github.com/livrasand/livrasand.github.io/raw/main/JW-Library-Visualizer-API/fonts/NotoSansArabic-Regular.ttf"
 }, function(t, r, e) {
 	"use strict";
-	r.a = "https://cdn.jsdelivr.net/gh/livrasand/livrasand.github.io@tree/main/JW-Library-Visualizer-API/fonts/NotoSansArabic-Bold.ttf"
+	r.a = "https://github.com/livrasand/livrasand.github.io/raw/main/JW-Library-Visualizer-API/fonts/NotoSansArabic-Bold.ttf"
 }, function(t, r, e) {
 	"use strict";
-	r.a = "https://cdn.jsdelivr.net/gh/livrasand/livrasand.github.io@tree/main/JW-Library-Visualizer-API/fonts/NotoNaskhArabic-Regular.ttf"
+	r.a = "https://github.com/livrasand/livrasand.github.io/raw/main/JW-Library-Visualizer-API/fonts/NotoNaskhArabic-Regular.ttf"
 }, function(t, r, e) {
 	"use strict";
-	r.a = "https://cdn.jsdelivr.net/gh/livrasand/livrasand.github.io@tree/main/JW-Library-Visualizer-API/fonts/NotoNaskhArabic-Bold.ttf"
+	r.a = "https://github.com/livrasand/livrasand.github.io/raw/main/JW-Library-Visualizer-API/fonts/NotoNaskhArabic-Bold.ttf"
 }, function(t, r, e) {
 	"use strict";
-	r.a = "https://cdn.jsdelivr.net/gh/livrasand/livrasand.github.io@tree/main/JW-Library-Visualizer-API/fonts/NotoSansHebrew-Regular.woff"
+	r.a = "https://github.com/livrasand/livrasand.github.io/raw/main/JW-Library-Visualizer-API/fonts/NotoSansHebrew-Regular.woff"
 }, function(t, r, e) {
 	"use strict";
-	r.a = "https://cdn.jsdelivr.net/gh/livrasand/livrasand.github.io@tree/main/JW-Library-Visualizer-API/fonts/NotoSansHebrew-Bold.woff"
+	r.a = "https://github.com/livrasand/livrasand.github.io/raw/main/JW-Library-Visualizer-API/fonts/NotoSansHebrew-Bold.woff"
 }, function(t, r, e) {
 	"use strict";
-	r.a = "https://cdn.jsdelivr.net/gh/livrasand/livrasand.github.io@tree/main/JW-Library-Visualizer-API/fonts/NotoSerifHebrew-Regular.woff"
+	r.a = "https://github.com/livrasand/livrasand.github.io/raw/main/JW-Library-Visualizer-API/fonts/NotoSerifHebrew-Regular.woff"
 }, function(t, r, e) {
 	"use strict";
-	r.a = "https://cdn.jsdelivr.net/gh/livrasand/livrasand.github.io@tree/main/JW-Library-Visualizer-API/fonts/NotoSerifHebrew-Bold.woff"
+	r.a = "https://github.com/livrasand/livrasand.github.io/raw/main/JW-Library-Visualizer-API/fonts/NotoSerifHebrew-Bold.woff"
 }, function(t, r, e) {
 	"use strict";
-	r.a = "https://cdn.jsdelivr.net/gh/livrasand/livrasand.github.io@tree/main/JW-Library-Visualizer-API/fonts/NotoSansMalayalam-Regular.woff"
+	r.a = "https://github.com/livrasand/livrasand.github.io/raw/main/JW-Library-Visualizer-API/fonts/NotoSansMalayalam-Regular.woff"
 }, function(t, r, e) {
 	"use strict";
-	r.a = "https://cdn.jsdelivr.net/gh/livrasand/livrasand.github.io@tree/main/JW-Library-Visualizer-API/fonts/NotoSansMalayalam-Bold.woff"
+	r.a = "https://github.com/livrasand/livrasand.github.io/raw/main/JW-Library-Visualizer-API/fonts/NotoSansMalayalam-Bold.woff"
 }, function(t, r, e) {
 	"use strict";
-	r.a = "https://cdn.jsdelivr.net/gh/livrasand/livrasand.github.io@tree/main/JW-Library-Visualizer-API/fonts/NotoSansMyanmar-Regular.woff"
+	r.a = "https://github.com/livrasand/livrasand.github.io/raw/main/JW-Library-Visualizer-API/fonts/NotoSansMyanmar-Regular.woff"
 }, function(t, r, e) {
 	"use strict";
-	r.a = "https://cdn.jsdelivr.net/gh/livrasand/livrasand.github.io@tree/main/JW-Library-Visualizer-API/fonts/NotoSansMyanmar-Bold.woff"
+	r.a = "https://github.com/livrasand/livrasand.github.io/raw/main/JW-Library-Visualizer-API/fonts/NotoSansMyanmar-Bold.woff"
 }, function(t, r, e) {
 	"use strict";
-	r.a = "https://cdn.jsdelivr.net/gh/livrasand/livrasand.github.io@tree/main/JW-Library-Visualizer-API/fonts/NotoSansTamil-Regular.woff"
+	r.a = "https://github.com/livrasand/livrasand.github.io/raw/main/JW-Library-Visualizer-API/fonts/NotoSansTamil-Regular.woff"
 }, function(t, r, e) {
 	"use strict";
-	r.a = "https://cdn.jsdelivr.net/gh/livrasand/livrasand.github.io@tree/main/JW-Library-Visualizer-API/fonts/NotoSansTamil-Bold.woff"
+	r.a = "https://github.com/livrasand/livrasand.github.io/raw/main/JW-Library-Visualizer-API/fonts/NotoSansTamil-Bold.woff"
 }, function(t, r, e) {
 	"use strict";
-	r.a = "https://cdn.jsdelivr.net/gh/livrasand/livrasand.github.io@tree/main/JW-Library-Visualizer-API/fonts/NotoSansDevanagari-Regular.woff"
+	r.a = "https://github.com/livrasand/livrasand.github.io/raw/main/JW-Library-Visualizer-API/fonts/NotoSansDevanagari-Regular.woff"
 }, function(t, r, e) {
 	"use strict";
-	r.a = "https://cdn.jsdelivr.net/gh/livrasand/livrasand.github.io@tree/main/JW-Library-Visualizer-API/fonts/NotoSansDevanagari-Bold.woff"
+	r.a = "https://github.com/livrasand/livrasand.github.io/raw/main/JW-Library-Visualizer-API/fonts/NotoSansDevanagari-Bold.woff"
 }, function(t, r, e) {
 	"use strict";
-	r.a = "https://cdn.jsdelivr.net/gh/livrasand/livrasand.github.io@tree/main/JW-Library-Visualizer-API/fonts/NotoSerifDevanagari-Regular.woff"
+	r.a = "https://github.com/livrasand/livrasand.github.io/raw/main/JW-Library-Visualizer-API/fonts/NotoSerifDevanagari-Regular.woff"
 }, function(t, r, e) {
 	"use strict";
-	r.a = "https://cdn.jsdelivr.net/gh/livrasand/livrasand.github.io@tree/main/JW-Library-Visualizer-API/fonts/NotoSerifDevanagari-Bold.woff"
+	r.a = "https://github.com/livrasand/livrasand.github.io/raw/main/JW-Library-Visualizer-API/fonts/NotoSerifDevanagari-Bold.woff"
 }, function(t, r, e) {
 	"use strict";
-	r.a = "https://cdn.jsdelivr.net/gh/livrasand/livrasand.github.io@tree/main/JW-Library-Visualizer-API/fonts/NotoSansBengali-Regular.woff"
+	r.a = "https://github.com/livrasand/livrasand.github.io/raw/main/JW-Library-Visualizer-API/fonts/NotoSansBengali-Regular.woff"
 }, function(t, r, e) {
 	"use strict";
-	r.a = "https://cdn.jsdelivr.net/gh/livrasand/livrasand.github.io@tree/main/JW-Library-Visualizer-API/fonts/NotoSansBengali-Bold.woff"
+	r.a = "https://github.com/livrasand/livrasand.github.io/raw/main/JW-Library-Visualizer-API/fonts/NotoSansBengali-Bold.woff"
 }, function(t, r, e) {
 	"use strict";
-	r.a = "https://cdn.jsdelivr.net/gh/livrasand/livrasand.github.io@tree/main/JW-Library-Visualizer-API/fonts/NotoSansGujarati-Regular.woff"
+	r.a = "https://github.com/livrasand/livrasand.github.io/raw/main/JW-Library-Visualizer-API/fonts/NotoSansGujarati-Regular.woff"
 }, function(t, r, e) {
 	"use strict";
-	r.a = "https://cdn.jsdelivr.net/gh/livrasand/livrasand.github.io@tree/main/JW-Library-Visualizer-API/fonts/NotoSansGujarati-Bold.woff"
+	r.a = "https://github.com/livrasand/livrasand.github.io/raw/main/JW-Library-Visualizer-API/fonts/NotoSansGujarati-Bold.woff"
 }, function(t, r, e) {
 	"use strict";
-	r.a = "https://cdn.jsdelivr.net/gh/livrasand/livrasand.github.io@tree/main/JW-Library-Visualizer-API/fonts/NotoSerifGujarati-Regular.woff"
+	r.a = "https://github.com/livrasand/livrasand.github.io/raw/main/JW-Library-Visualizer-API/fonts/NotoSerifGujarati-Regular.woff"
 }, function(t, r, e) {
 	"use strict";
-	r.a = "https://cdn.jsdelivr.net/gh/livrasand/livrasand.github.io@tree/main/JW-Library-Visualizer-API/fonts/NotoSerifGujarati-Bold.woff"
+	r.a = "https://github.com/livrasand/livrasand.github.io/raw/main/JW-Library-Visualizer-API/fonts/NotoSerifGujarati-Bold.woff"
 }, function(t, r, e) {
 	"use strict";
-	r.a = "https://cdn.jsdelivr.net/gh/livrasand/livrasand.github.io@tree/main/JW-Library-Visualizer-API/fonts/NotoSansOriya-Regular.woff"
+	r.a = "https://github.com/livrasand/livrasand.github.io/raw/main/JW-Library-Visualizer-API/fonts/NotoSansOriya-Regular.woff"
 }, function(t, r, e) {
 	"use strict";
-	r.a = "https://cdn.jsdelivr.net/gh/livrasand/livrasand.github.io@tree/main/JW-Library-Visualizer-API/fonts/NotoSansOriya-Bold.woff"
+	r.a = "https://github.com/livrasand/livrasand.github.io/raw/main/JW-Library-Visualizer-API/fonts/NotoSansOriya-Bold.woff"
 }, function(t, r, e) {
 	"use strict";
-	r.a = "https://cdn.jsdelivr.net/gh/livrasand/livrasand.github.io@tree/main/JW-Library-Visualizer-API/fonts/NotoSansGurmukhi-Regular.woff"
+	r.a = "https://github.com/livrasand/livrasand.github.io/raw/main/JW-Library-Visualizer-API/fonts/NotoSansGurmukhi-Regular.woff"
 }, function(t, r, e) {
 	"use strict";
-	r.a = "https://cdn.jsdelivr.net/gh/livrasand/livrasand.github.io@tree/main/JW-Library-Visualizer-API/fonts/NotoSansGurmukhi-Bold.woff"
+	r.a = "https://github.com/livrasand/livrasand.github.io/raw/main/JW-Library-Visualizer-API/fonts/NotoSansGurmukhi-Bold.woff"
 }, function(t, r, e) {
 	"use strict";
-	r.a = "https://cdn.jsdelivr.net/gh/livrasand/livrasand.github.io@tree/main/JW-Library-Visualizer-API/fonts/NotoSansSinhala-Regular.woff"
+	r.a = "https://github.com/livrasand/livrasand.github.io/raw/main/JW-Library-Visualizer-API/fonts/NotoSansSinhala-Regular.woff"
 }, function(t, r, e) {
 	"use strict";
-	r.a = "https://cdn.jsdelivr.net/gh/livrasand/livrasand.github.io@tree/main/JW-Library-Visualizer-API/fonts/NotoSansSinhala-Bold.woff"
+	r.a = "https://github.com/livrasand/livrasand.github.io/raw/main/JW-Library-Visualizer-API/fonts/NotoSansSinhala-Bold.woff"
 }, function(t, r, e) {
 	"use strict";
-	r.a = "https://cdn.jsdelivr.net/gh/livrasand/livrasand.github.io@tree/main/JW-Library-Visualizer-API/fonts/NotoSansTelugu-Regular.woff"
+	r.a = "https://github.com/livrasand/livrasand.github.io/raw/main/JW-Library-Visualizer-API/fonts/NotoSansTelugu-Regular.woff"
 }, function(t, r, e) {
 	"use strict";
-	r.a = "https://cdn.jsdelivr.net/gh/livrasand/livrasand.github.io@tree/main/JW-Library-Visualizer-API/fonts/NotoSansTelugu-Bold.woff"
+	r.a = "https://github.com/livrasand/livrasand.github.io/raw/main/JW-Library-Visualizer-API/fonts/NotoSansTelugu-Bold.woff"
 }, function(t, r, e) {
 	"use strict";
-	r.a = "https://cdn.jsdelivr.net/gh/livrasand/livrasand.github.io@tree/main/JW-Library-Visualizer-API/fonts/notosanstibetan-regular-webfont.woff"
+	r.a = "https://github.com/livrasand/livrasand.github.io/raw/main/JW-Library-Visualizer-API/fonts/notosanstibetan-regular-webfont.woff"
 }, function(t, r, e) {
 	"use strict";
-	r.a = "https://cdn.jsdelivr.net/gh/livrasand/livrasand.github.io@tree/main/JW-Library-Visualizer-API/fonts/NotoSansKhmer-Regular.woff"
+	r.a = "https://github.com/livrasand/livrasand.github.io/raw/main/JW-Library-Visualizer-API/fonts/NotoSansKhmer-Regular.woff"
 }, function(t, r, e) {
 	"use strict";
-	r.a = "https://cdn.jsdelivr.net/gh/livrasand/livrasand.github.io@tree/main/JW-Library-Visualizer-API/fonts/NotoSansKhmer-Bold.woff"
+	r.a = "https://github.com/livrasand/livrasand.github.io/raw/main/JW-Library-Visualizer-API/fonts/NotoSansKhmer-Bold.woff"
 }, function(t, r, e) {
 	"use strict";
-	r.a = "https://cdn.jsdelivr.net/gh/livrasand/livrasand.github.io@tree/main/JW-Library-Visualizer-API/fonts/NotoSerifKhmer-Regular.ttf"
+	r.a = "https://github.com/livrasand/livrasand.github.io/raw/main/JW-Library-Visualizer-API/fonts/NotoSerifKhmer-Regular.ttf"
 }, function(t, r, e) {
 	"use strict";
-	r.a = "https://cdn.jsdelivr.net/gh/livrasand/livrasand.github.io@tree/main/JW-Library-Visualizer-API/fonts/NotoSerifKhmer-Bold.ttf"
+	r.a = "https://github.com/livrasand/livrasand.github.io/raw/main/JW-Library-Visualizer-API/fonts/NotoSerifKhmer-Bold.ttf"
 }, function(t, r, e) {
 	"use strict";
-	r.a = "https://cdn.jsdelivr.net/gh/livrasand/livrasand.github.io@tree/main/JW-Library-Visualizer-API/fonts/NotoSansKannada-Regular.woff"
+	r.a = "https://github.com/livrasand/livrasand.github.io/raw/main/JW-Library-Visualizer-API/fonts/NotoSansKannada-Regular.woff"
 }, function(t, r, e) {
 	"use strict";
-	r.a = "https://cdn.jsdelivr.net/gh/livrasand/livrasand.github.io@tree/main/JW-Library-Visualizer-API/fonts/NotoSansKannada-Bold.woff"
+	r.a = "https://github.com/livrasand/livrasand.github.io/raw/main/JW-Library-Visualizer-API/fonts/NotoSansKannada-Bold.woff"
 }, function(t, r, e) {
 	"use strict";
-	r.a = "https://cdn.jsdelivr.net/gh/livrasand/livrasand.github.io@tree/main/JW-Library-Visualizer-API/fonts/NotoSansKR-Regular.otf"
+	r.a = "https://github.com/livrasand/livrasand.github.io/raw/main/JW-Library-Visualizer-API/fonts/NotoSansKR-Regular.otf"
 }, function(t, r, e) {
 	"use strict";
-	r.a = "https://cdn.jsdelivr.net/gh/livrasand/livrasand.github.io@tree/main/JW-Library-Visualizer-API/fonts/NotoSansKR-Bold.otf"
+	r.a = "https://github.com/livrasand/livrasand.github.io/raw/main/JW-Library-Visualizer-API/fonts/NotoSansKR-Bold.otf"
 }, function(t, r, e) {
 	"use strict";
-	r.a = "https://cdn.jsdelivr.net/gh/livrasand/livrasand.github.io@tree/main/JW-Library-Visualizer-API/fonts/NotoSansJP-Regular.otf"
+	r.a = "https://github.com/livrasand/livrasand.github.io/raw/main/JW-Library-Visualizer-API/fonts/NotoSansJP-Regular.otf"
 }, function(t, r, e) {
 	"use strict";
-	r.a = "https://cdn.jsdelivr.net/gh/livrasand/livrasand.github.io@tree/main/JW-Library-Visualizer-API/fonts/NotoSansJP-Bold.otf"
+	r.a = "https://github.com/livrasand/livrasand.github.io/raw/main/JW-Library-Visualizer-API/fonts/NotoSansJP-Bold.otf"
 }, function(t, r, e) {
 	"use strict";
-	r.a = "https://cdn.jsdelivr.net/gh/livrasand/livrasand.github.io@tree/main/JW-Library-Visualizer-API/fonts/NotoSansSC-Regular.otf"
+	r.a = "https://github.com/livrasand/livrasand.github.io/raw/main/JW-Library-Visualizer-API/fonts/NotoSansSC-Regular.otf"
 }, function(t, r, e) {
 	"use strict";
-	r.a = "https://cdn.jsdelivr.net/gh/livrasand/livrasand.github.io@tree/main/JW-Library-Visualizer-API/fonts/NotoSansSC-Bold.otf"
+	r.a = "https://github.com/livrasand/livrasand.github.io/raw/main/JW-Library-Visualizer-API/fonts/NotoSansSC-Bold.otf"
 }, function(t, r, e) {
 	"use strict";
-	r.a = "https://cdn.jsdelivr.net/gh/livrasand/livrasand.github.io@tree/main/JW-Library-Visualizer-API/fonts/NotoSansTC-Regular.otf"
+	r.a = "https://github.com/livrasand/livrasand.github.io/raw/main/JW-Library-Visualizer-API/fonts/NotoSansTC-Regular.otf"
 }, function(t, r, e) {
 	"use strict";
-	r.a = "https://cdn.jsdelivr.net/gh/livrasand/livrasand.github.io@tree/main/JW-Library-Visualizer-API/fonts/NotoSansTC-Bold.otf"
+	r.a = "https://github.com/livrasand/livrasand.github.io/raw/main/JW-Library-Visualizer-API/fonts/NotoSansTC-Bold.otf"
 }, function(t, r, e) {
 	"use strict";
-	r.a = "https://cdn.jsdelivr.net/gh/livrasand/livrasand.github.io@tree/main/JW-Library-Visualizer-API/fonts/roboto-condensed-v14-latin-regular.woff"
+	r.a = "https://github.com/livrasand/livrasand.github.io/raw/main/JW-Library-Visualizer-API/fonts/roboto-condensed-v14-latin-regular.woff"
 }, function(t, r, e) {
 	"use strict";
-	r.a = "https://cdn.jsdelivr.net/gh/livrasand/livrasand.github.io@tree/main/JW-Library-Visualizer-API/fonts/roboto-condensed-v14-latin-italic.woff"
+	r.a = "https://github.com/livrasand/livrasand.github.io/raw/main/JW-Library-Visualizer-API/fonts/roboto-condensed-v14-latin-italic.woff"
 }, function(t, r, e) {
 	"use strict";
-	r.a = "https://cdn.jsdelivr.net/gh/livrasand/livrasand.github.io@tree/main/JW-Library-Visualizer-API/fonts/roboto-condensed-v14-latin-700.woff"
+	r.a = "https://github.com/livrasand/livrasand.github.io/raw/main/JW-Library-Visualizer-API/fonts/roboto-condensed-v14-latin-700.woff"
 }, function(t, r, e) {
 	"use strict";
-	r.a = "https://cdn.jsdelivr.net/gh/livrasand/livrasand.github.io@tree/main/JW-Library-Visualizer-API/fonts/roboto-condensed-v14-latin-700italic.woff"
+	r.a = "https://github.com/livrasand/livrasand.github.io/raw/main/JW-Library-Visualizer-API/fonts/roboto-condensed-v14-latin-700italic.woff"
 }, function(t, r, e) {
 	"use strict";
-	r.a = "https://cdn.jsdelivr.net/gh/livrasand/livrasand.github.io@tree/main/JW-Library-Visualizer-API/fonts/roboto-condensed-v14-latin-700.woff"
+	r.a = "https://github.com/livrasand/livrasand.github.io/raw/main/JW-Library-Visualizer-API/fonts/roboto-condensed-v14-latin-700.woff"
 }, function(t, r, e) {
 	"use strict";
 	e.d(r, "a", (function() {
@@ -26849,5 +26849,5 @@ this.PrimaryPane = function(t) {
 	}), document.body)
 }, function(t, r, e) {
 	"use strict";
-	e.r(r), r.default = e.p + "https://cdn.jsdelivr.net/gh/livrasand/livrasand.github.io@tree/main/JW-Library-Visualizer-API/html/primary.html"
+	e.r(r), r.default = e.p + "https://github.com/livrasand/livrasand.github.io/raw/main/JW-Library-Visualizer-API/html/primary.html"
 }]);
