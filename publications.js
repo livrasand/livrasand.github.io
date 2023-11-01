@@ -23,7 +23,7 @@ fetch('https://raw.githubusercontent.com/livrasand/Reviw/main/repository/publica
 <div class="label-container svelte-35xm21" style="display: flex; justify-content: space-between; align-items: left;">
   <h3 class="text-block type-title svelte-zxj483">${publication.title}</h3>
   <div class="mb-2">
-  <a class="button style-hyperlink svelte-nqc07q" style="background:#231f20;color:#fff;font-size:10px;border-radius:180px;padding:0 10px 0 10px;" href="${publication.downloadURL}" download="" target="_blank" rel="noreferrer noopener" role="button" onclick="registerDownload('${publication.title}')">
+  <a class="button style-hyperlink svelte-nqc07q" style="background:#231f20;color:#fff;font-size:10px;border-radius:180px;padding:0 10px 0 10px;" href="${publication.downloadURL}" download="" target="_blank" rel="noreferrer noopener" role="button">
       <span>Descargar</span>
     </a>
     <span style="margin-left:4px;" class="Counter"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 16 16" width="11" height="11"><path d="M2.75 14A1.75 1.75 0 0 1 1 12.25v-2.5a.75.75 0 0 1 1.5 0v2.5c0 .138.112.25.25.25h10.5a.25.25 0 0 0 .25-.25v-2.5a.75.75 0 0 1 1.5 0v2.5A1.75 1.75 0 0 1 13.25 14Z"></path><path d="M7.25 7.689V2a.75.75 0 0 1 1.5 0v5.689l1.97-1.969a.749.749 0 1 1 1.06 1.06l-3.25 3.25a.749.749 0 0 1-1.06 0L4.22 6.78a.749.749 0 1 1 1.06-1.06l1.97 1.969Z"></path></svg> ${publication.descargas} descargas totales</span>
@@ -66,7 +66,7 @@ function searchPublications() {
 <div class="label-container svelte-35xm21" style="display: flex; justify-content: space-between; align-items: left;">
   <h3 class="text-block type-title svelte-zxj483">${publication.title}</h3>
   <div class="mb-2">
-  <a class="button style-hyperlink svelte-nqc07q" style="background:#231f20;color:#fff;font-size:10px;border-radius:180px;padding:0 10px 0 10px;" href="${publication.downloadURL}" download="" target="_blank" rel="noreferrer noopener" role="button" onclick="registerDownload('${publication.title}')">
+  <a class="button style-hyperlink svelte-nqc07q" style="background:#231f20;color:#fff;font-size:10px;border-radius:180px;padding:0 10px 0 10px;" href="${publication.downloadURL}" download="" target="_blank" rel="noreferrer noopener" role="button">
       <span>Descargar</span>
     </a>
     <span style="margin-left:4px;" class="Counter"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 16 16" width="11" height="11"><path d="M2.75 14A1.75 1.75 0 0 1 1 12.25v-2.5a.75.75 0 0 1 1.5 0v2.5c0 .138.112.25.25.25h10.5a.25.25 0 0 0 .25-.25v-2.5a.75.75 0 0 1 1.5 0v2.5A1.75 1.75 0 0 1 13.25 14Z"></path><path d="M7.25 7.689V2a.75.75 0 0 1 1.5 0v5.689l1.97-1.969a.749.749 0 1 1 1.06 1.06l-3.25 3.25a.749.749 0 0 1-1.06 0L4.22 6.78a.749.749 0 1 1 1.06-1.06l1.97 1.969Z"></path></svg> ${publication.descargas} descargas totales</span>
@@ -82,26 +82,4 @@ function searchPublications() {
       }
     });
   }
-}
-
-function registerDownload(title) {
-  fetch('download.php', {
-    method: 'POST',
-    headers: {
-      'Content-Type': 'application/json',
-    },
-    body: JSON.stringify({ title }),
-  })
-    .then(response => response.json())
-    .then(data => {
-      // Actualizar el contador de descargas localmente
-      jsonData.forEach(publication => {
-        if (publication.title === title) {
-          publication.descargas = data.descargas;
-        }
-      });
-    })
-    .catch(error => {
-      console.error('Error al registrar la descarga:', error);
-    });
 }
