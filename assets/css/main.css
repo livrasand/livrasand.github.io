@@ -1,0 +1,299 @@
+/*--------------------------------------------------------------
+>>> TABLE OF CONTENTS:
+----------------------------------------------------------------*/
+:root {
+	--font_14:0.875rem;
+	--font_16:1rem;
+	--font_30:1.875rem;
+	--font_36:2.25rem;
+	--font_48:3rem;
+	--40:2.5rem;
+	--30:1.875rem;
+	--margin_30:1.875rem;
+	--margin-54:3.375rem;
+	--margin-60:3.75rem;
+	--margin-100:6.25rem;
+	--margin-120:7.5rem;   
+}
+html {font-family: 'Inter', sans-serif;background-color:#FFF}
+body {font-family: 'Inter', sans-serif;overflow-x: hidden; background-color:#FFF; font-weight:400;font-style: normal; color: #000; font-size: var(--font_14)}
+a,a:hover,a:focus,i,input,button,input:focus,.transition {text-decoration: none;outline: none;transition-delay: 0s;transition-duration: 0.4s;transition-property: all;transition-timing-function: ease;box-shadow: none;}
+iframe {border: 0;outline: none;}
+::-moz-selection {background: var(--red);text-shadow: none;color:var(--white)}
+::selection {background:var(--red);text-shadow: none;color:var(--white)}
+img {max-width: 100%;border: none;outline: none;height: auto;}
+input,textarea {border-radius: 0;resize: none;}
+ul {padding: 0;margin: 0;}
+@font-face {
+font-family: 'DM Serif Display', serif;
+font-family: 'Inter', sans-serif;}
+input:-webkit-autofill, textarea:-webkit-autofill, select:-webkit-autofill {background-color: transparent;background-image: none;color:#000;}
+/* 1.2 Typography */
+h1,h2,h3,h4,h5,h6 {font-family: 'DM Serif Display', serif;}
+figure{ margin: 0 }
+svg,img { max-width: 100%; height: auto; }
+.ds-boder_text{ position: relative; display: inline-block; }
+.ds-boder_text span{ position: relative; z-index: 1 }
+.ds-boder_text:after{ content: ""; position: absolute; bottom: 0; left: 0; background-color:#A6F3E7; height: 0.9375rem; width:100%;}
+.margin-60{ margin-bottom: var(--margin-60);  }
+.padding-0{ padding-top: 0 }
+.ds-view-button{font-weight: 600; font-size: 1rem; color: #000}
+.ds-view-button i{ display: inline-block; vertical-align: middle; color: #00B7CC; font-size: 1.625rem; }
+.ds-view-button:hover{color: #00B7CC; }
+.text-left{ text-align: left; }
+.ds-arrow {background: #00B7CC;height:0.125rem;width:3.125rem;position: relative;cursor: pointer; display: inline-block; vertical-align: middle;transition-delay: 0s;transition-duration: 0.4s;transition-property: all;transition-timing-function: ease; margin-left:0.5rem}
+.ds-arrow:before, .ds-arrow:after {content: "";background: #00B7CC;position: absolute;height:0.125rem;width:0.8125rem;}
+.ds-arrow:before {right: -0.25rem;bottom: -0.25rem;transform: rotate(-45deg);}
+.ds-arrow:after {right: -0.25rem;top: -0.25rem;transform: rotate(45deg);}
+.ri-bug-line {color: #00B7CC;position: relative;cursor: pointer; display: inline-block; vertical-align: middle;transition-delay: 0s;transition-duration: 0.4s;transition-property: all;transition-timing-function: ease; margin-left:0.5rem; font-size: 28px;}
+.ri-download-cloud-2-line {color: #00B7CC;position: relative;cursor: pointer; display: inline-block; vertical-align: middle;transition-delay: 0s;transition-duration: 0.4s;transition-property: all;transition-timing-function: ease; margin-left:0.5rem; font-size: 28px;}
+.ds-button-arrow:hover .ds-arrow{ margin-left:0.9375rem }
+
+.ds-back-to-home{ display: inline-block; padding:0.625rem 1.25rem; border-radius: 100%; border: 1px solid #000; font-size: 1.875rem; color: #000 }
+.ds-back-to-home:hover{ color: #000 }
+/*-----------------------------------------------------------------
+  1. >>> Header Style
+----------------------------------------------------------------*/
+.ds-header{ padding-top:7.1875rem; padding-bottom:var(--40);}
+.ds-logo{font-family: 'Inter', sans-serif; color:#000; font-size:1rem; font-weight: 600; text-transform: uppercase;}
+.ds-logo:hover{color:#000;}
+/*-----------------------------------------------------------------
+  2. >>> Banner Style
+----------------------------------------------------------------*/
+.ds-banner-section{ text-align: left; margin-bottom: var(--margin-120);  }
+.ds-heading,.ds-heading-inner{ font-size: 4.375rem; line-height:6rem; margin-bottom:3.1875rem;}
+.ds-heading span{ border-bottom:15px solid #A6F3E7  }
+
+
+.ds-banner-section figure{ margin-bottom: var(--margin-54) }
+.ds-banner-section p{font-size:var(--font_16);line-height:var(--30); margin-bottom: var(--30); }
+.ds-button{ display: inline-block; text-transform: uppercase; color: #FFF; background-color: #45CD86; border-radius:var(--font_30); padding:1.125rem 3.625rem; font-weight: 700; letter-spacing: 1px }
+.ds-button:hover{ color: #FFF; background-color:#3bb173  }
+.ds-content-width p{ width:570px }
+
+.ds-project-list{ display: flex;flex-direction: column; margin:0 -0.75rem}
+.ds-project-list-loop{ padding: 0 0.75rem; }
+.ds-project-list-loop:nth-child(even){ margin-top:- var(--margin-120) }
+.ds-project-list-loop:nth-child(odd){ margin-top: var(--margin-120) }
+.ds-project-list-loop-inner{ background-color:#FFF; box-shadow: 0px 0px 50px #e6f8fa;border:solid 1px #80dbe6;border-radius:6px;transition-delay: 0s;transition-duration: 0.8s;transition-property: all;transition-timing-function: ease;transform: translateY(0); }
+.ds-project-list-loop-inner section{padding:1.875rem   }
+.ds-project-list-loop a{ color: #000 }
+.ds-project-list-loop:hover .ds-project-list-loop-inner{/*box-shadow: 0px 0px 20px #cecaca;*/transform: translateY(-1.25rem);}
+/*-----------------------------------------------------------------
+  3. >>> About Style
+----------------------------------------------------------------*/
+.ds-proj-hedding{ font-size:1.625rem; margin-bottom:0.5rem;font-family: 'Inter', sans-serif; font-weight: 600 }
+.ds-tools{ font-weight:400; font-size: 1.125rem; display: block; }
+.ds-about-section{ margin-top:8.8125rem }
+.ads-bout-section .ds-heading-inner,.ds-back-home{ margin-bottom: var(--margin-54) }
+
+
+.ds-left-right-section .ds-hedding{font-size:3rem; position:relative; margin-bottom:0.875rem;font-family: 'DM Serif Display', serif;}
+.ds-left-right-section {margin-bottom: var(--margin-120);}
+.ds-left-right-section  figure{ margin-bottom: var(--margin-60); }
+.ds-left-right-section .ds-tools{ font-weight: 700 }
+.ds-left-right-section  p{ font-size: 1.375rem; line-height:var(--font_36); margin-bottom: 2.5rem }
+/*-----------------------------------------------------------------
+  4. >>> Project Style
+----------------------------------------------------------------*/
+.ds-case-studies-list{margin-bottom: var(--margin-120);}
+.ds-case-studies-list figure{ margin-bottom: var(--margin-60); }
+.ds-hedding{ font-size: var(--font_48); margin-bottom: var(--font_14); }
+.ds-tools{ font-weight: 700 }
+.ds-case-studies-list p{ font-size: 1.375rem; line-height:var(--font_36); margin-bottom: 2.5rem }
+.ds-view-button{font-weight: 600; font-size: 1rem; color: #000}
+.ds-view-button i{ display: inline-block; vertical-align: middle; color: #00B7CC; font-size: 1.625rem; }
+.ds-view-button:hover{color: #00B7CC; }
+
+.ds-case-studies-details{ padding-bottom: 5.25rem; }
+.ds-case-studies-details .ds-case-studies-list{ margin-bottom: 2.75rem; }
+.ds-case-studies-details .ds-tools{ margin-bottom: var(--margin-60); display: block; }
+
+/*-----------------------------------------------------------------
+  5. >>> Footer Style
+----------------------------------------------------------------*/
+.ds-footer{ background-color: #FFF; padding:var(--margin-120) 0; }
+.ds-padding-0-about.ds-footer{ padding-top: 0 }
+.ds-lets_section h4{ color: #000;font-family: 'Inter', sans-serif; font-weight: 700; font-size:4.375rem; margin-bottom: 1.0625rem  }
+.ds-lets_section span{ color: #000; font-size:1.125rem;  }
+
+.ds-email_social{ display: flex; justify-content: space-between; align-items: center; padding:6.375rem 0; padding-bottom: 2.5rem }
+.ds-email{ color: #000; font-size: var(--font_30); font-weight: 600; display: inline-block; }
+.ds-email:hover{color: #000;}
+.ds-social{list-style: none; padding: 0; margin: 0; display: flex;}
+.ds-social li{ margin-right:4rem; }
+.ds-social li:last-child{ margin-right: 0 }
+.ds-social a{ color: #797979; font-size: 2.5625rem; }
+.ds-social a:hover{ color: #000 }
+.ds-copyright{ display: block; text-align: right; color:#2B2B2B; font-size:1.125rem }
+.ds-copyright a{color:#2B2B2B;}
+.ds-copyright a:hover{color:#2B2B2B; text-decoration: underline;}
+/*-------------------------------------------------------------------------------
+ XS Style @media (max-width: 767px) 
+-------------------------------------------------------------------------------*/
+@media (max-width: 767px) {
+.row{ margin-left:0; margin-right:0  }
+.container{ padding-left:1.25rem; padding-right: 1.25rem;  }
+.ds-header{ padding:3.75rem 0  }
+.ds-heading{font-size: 2.375rem;line-height: 4rem;}
+.ds-heading-inner{font-size: 3.375rem;line-height: 6rem;}
+.ds-about-section .ds-heading-inner{ margin-bottom:3.75rem }
+.ds-about-section{ margin-top: 5.8125rem }
+.ds-case-studies-details .ds-tools{ margin-bottom: 1.875rem }
+.ds-heading span br{ display: none; }
+.ds-banner-section{ margin-bottom: var(--margin_30) }
+.ds-content-width p{width: 100%}
+.ds-lets_section h4{font-size: 3.375rem;}
+.ds-project-list{ grid-template-columns: auto; }
+
+.ds-project-list-loop:nth-child(even),.ds-project-list-loop:nth-child(odd){ margin: 0; margin-bottom:1.875rem  }
+
+.ds-case-studies-details .ds-case-studies-list{ margin-bottom: -0.25rem }
+.d-flex{ flex-wrap:wrap; }
+.ds-left-right-section section{ margin-bottom:1.875rem  }
+.ds-left-right-section{ margin-bottom:1.875rem  }
+.ds-footer{ padding-top:1.875rem }
+.ds-email_social{justify-content: center;flex-wrap: wrap; padding: 4.375rem 0}
+.ds-copyright{ text-align: center; }
+.ds-social{ margin-top: 1.25rem }
+}
+
+
+@media (min-width: 768px) and (max-width: 991px) {
+}
+
+@media (min-width: 992px) and (max-width: 1199px) {
+
+
+}
+
+/* Agrega un pequeño punto de color a la derecha superior 
+al posicionar el mouse sobre los enlaces dentro de un párrafo */
+p a:hover {
+    position: relative;
+    color: #000;
+    margin-right: 5px;
+}
+
+p a {
+	margin-left: 2px;
+	color: #000;
+	display: inline-block;
+	border-bottom: 1px solid rgba(55, 53, 47, 0.6);
+	opacity: .7;
+  transition: border-color .1s ease-in,opacity .1s ease-in;
+}
+
+p a:hover::after {
+	position: absolute;
+  width: 16px;
+  height: 16px;
+   top: 0%;
+    right: -16px; /* Ajusta la posición del punto hacia la izquierda */
+    transform: translateY(-50%); /* Centra verticalmente el punto */
+    content: '\2022'; 
+    color: #FF9B16; 
+}
+
+.linea-vertical {
+    position: fixed;
+    height: 86%;
+    width: 1px;
+    background-color: #000;
+    right: 4%;
+    bottom: 0;
+}
+
+.buscador {
+    position: fixed;
+    top: 3%;
+    right: 3.2%;
+    writing-mode: vertical-rl; 
+    transform: rotate(180deg); 
+    color: #000; 
+    font-family: 'DM Mono', monospace;
+}
+
+#buscador-pantalla-completa {
+    position: fixed;
+    flex: 1;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(255, 255, 255, 0.98); 
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    flex-direction: column;
+}
+
+#buscador-pantalla-completa input {
+    margin-bottom: 10px;
+}
+
+.oculto {
+  visibility: hidden;
+  opacity: 1;
+}
+
+body.buscador-activo {
+    overflow: hidden; 
+}
+
+body.buscador-activo p a {
+    pointer-events: none; 
+	display: none;
+}
+
+/* DISEÑO DEL BUSCADOR */
+
+.buscador-input {
+   padding: 20px;
+  width: 70%;
+  border: 1px solid #000;
+  background: #000;
+  color: #f2f2f2;
+  font-weight: 300;
+  font-family: 'DM Mono', monospace;
+}
+
+/* MODAL */
+#modal {
+   position: fixed;
+    flex: 1;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(255, 255, 255, 0.98); 
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    flex-direction: column;
+}
+
+.modal-content {
+	width: 60%;
+  text-align: center;
+  border: none;
+}
+
+
+/* BOTONES DEL MODAL */
+.item.svelte-10xsmud.svelte-10xsmud {
+  border-radius: 8px;
+  color: #000;
+  background: #FD0;
+  font-size: 24px;
+  font-weight: 400;
+  justify-content: center;
+  margin: 0 4px;
+  padding: 6px 11px 6px;
+  text-decoration: none;
+  transition: var(--fds-control-faster-duration) linear background-color;
+  font-family: 'Cookie', cursive;
+  height: 50px;
+}
