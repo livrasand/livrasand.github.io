@@ -142,12 +142,12 @@ document.addEventListener('DOMContentLoaded', function() {
     });
 });
 
-// Función para obtener un color hexadecimal aleatorio
-function getRandomColor() {
-  const letters = '0123456789ABCDEF';
-  let color = '#';
-  for (let i = 0; i < 6; i++) {
-    color += letters[Math.floor(Math.random() * 16)];
-  }
-  return color;
-}
+var botonFlotante = document.getElementById('boton-flotante');
+
+window.addEventListener('scroll', function() {
+    if (window.scrollY > 100) { // Cambia 100 por la posición a partir de la cual deseas ocultar el botón
+        botonFlotante.classList.add('oculto');
+    } else {
+        botonFlotante.classList.remove('oculto');
+    }
+});

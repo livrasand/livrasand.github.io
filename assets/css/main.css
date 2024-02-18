@@ -297,3 +297,41 @@ body.buscador-activo p a {
   font-family: 'Cookie', cursive;
   height: 50px;
 }
+
+#boton-flotante {
+            position: fixed;
+            bottom: 8%; /* Inicialmente oculto */
+            right: 16%;
+            transition: opacity 0.3s ease; /* Transición suave para ocultar/mostrar */
+            z-index: 1000;
+        }
+
+#boton-flotante.oculto {
+    opacity: 0;
+}
+
+      .boton-flotante-icono {
+        display: block;
+        width: 77px;
+        height: 77px;
+        line-height: 77px;
+        text-align: center;
+        background-color: #FFE450; /* Color de fondo del botón */
+        color: #1F1F1A; /* Color del texto del botón */
+        border-radius: 42%;
+        text-decoration: none;
+      }
+
+      .boton-flotante-icono:hover {
+        background-color: #ffec85; /* Cambia el color de fondo al pasar el mouse */
+        color:#1f1f1a;
+      }
+
+      .boton-flotante-icono img {
+            position: absolute;
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%, -50%);
+            width: 48px; /* Ancho de la imagen */
+            height: 48px; /* Alto de la imagen */
+        }
