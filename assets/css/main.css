@@ -51,13 +51,13 @@ svg,img { max-width: 100%; height: auto; }
 
 @media (max-width: 768px) {
   .ri-download-cloud-2-line {
-    font-size: 16px; /* Cambio del tamaño de fuente a 16px en dispositivos móviles */
+    font-size: 24px; /* Cambio del tamaño de fuente a 16px en dispositivos móviles */
   }
 }
 
 @media (max-width: 768px) {
   .ri-bug-line {
-    font-size: 16px; /* Cambio del tamaño de fuente a 16px en dispositivos móviles */
+    display: none;
   }
 }
 
@@ -380,3 +380,113 @@ body.buscador-activo p a {
     margin-top: 0.5rem;
   }
 }
+
+.edit-github {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            margin-top: 20px;
+        }
+        .edit-github a {
+            display: flex;
+            align-items: center;
+            text-decoration: none;
+            color: #0366d6;
+            font-size: 16px;
+        }
+        .edit-github a:hover {
+            text-decoration: none;
+        }
+        .edit-github i {
+            margin-right: 8px;
+        }
+
+        .cqMvuS {
+  display: ruby;
+  -moz-box-align: center;
+  align-items: center;
+}
+* {
+  box-sizing: border-box;
+}
+.eMlnsv {
+  line-height: 1.5;
+  color: rgb(36, 41, 47);
+}
+.jyeSzM {
+  margin-right: 8px;
+}
+.emLWCf {
+  color: rgb(9, 105, 218);
+  text-decoration: none;
+  margin-right: 8px;
+  line-height: 1;
+}
+.iJGqWI.tooltipped-s::after, .iJGqWI.tooltipped-n::after {
+  transform: translateX(50%);
+}
+.iJGqWI.tooltipped-n::after, .iJGqWI.tooltipped-ne::after, .iJGqWI.tooltipped-nw::after {
+  right: 50%;
+  bottom: 100%;
+  margin-bottom: 6px;
+}
+.iJGqWI::after {
+  position: absolute;
+  z-index: 1000000;
+  display: none;
+  padding: 0.5em 0.75em;
+  font: 11px / 1.5 -apple-system, BlinkMacSystemFont, "Segoe UI", Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji";
+  color: rgb(255, 255, 255);
+  text-align: center;
+  text-decoration: none;
+  text-shadow: none;
+  text-transform: none;
+  letter-spacing: normal;
+  overflow-wrap: break-word;
+  white-space: pre;
+  pointer-events: none;
+  content: attr(aria-label);
+  background: rgb(36, 41, 47);
+  border-radius: 3px;
+  opacity: 0;
+}
+.iJGqWI.tooltipped-n::before, .iJGqWI.tooltipped-ne::before, .iJGqWI.tooltipped-nw::before {
+  top: -7px;
+  right: 50%;
+  bottom: auto;
+  margin-right: -6px;
+  border-top-color: rgb(36, 41, 47);
+}
+.iJGqWI::before {
+  position: absolute;
+  z-index: 1000001;
+  display: none;
+  width: 0px;
+  height: 0px;
+  color: rgb(36, 41, 47);
+  pointer-events: none;
+  content: "";
+  border: 6px solid transparent;
+    border-top-color: transparent;
+  opacity: 0;
+}
+.gIEPlT {
+  display: inline-block;
+  overflow: hidden;
+  line-height: 1;
+  vertical-align: middle;
+  border-radius: 50%;
+  width: 20px;
+}
+.ELDST {
+  font-size: 14px;
+  color: rgb(87, 96, 106);
+  margin-top: 4px;
+}
+.jmnotL {
+  color: rgb(9, 105, 218);
+  text-decoration: none;
+}
+
+        
+        
