@@ -49,6 +49,18 @@ svg,img { max-width: 100%; height: auto; }
 .ri-download-cloud-2-line {color: #00B7CC;position: relative;cursor: pointer; display: inline-block; vertical-align: middle;transition-delay: 0s;transition-duration: 0.4s;transition-property: all;transition-timing-function: ease; margin-left:0.5rem; font-size: 28px;}
 .ds-button-arrow:hover .ds-arrow{ margin-left:0.9375rem }
 
+@media (max-width: 768px) {
+  .ri-download-cloud-2-line {
+    font-size: 16px; /* Cambio del tamaño de fuente a 16px en dispositivos móviles */
+  }
+}
+
+@media (max-width: 768px) {
+  .ri-bug-line {
+    font-size: 16px; /* Cambio del tamaño de fuente a 16px en dispositivos móviles */
+  }
+}
+
 .ds-back-to-home{ display: inline-block; padding:0.625rem 1.25rem; border-radius: 100%; border: 1px solid #000; font-size: 1.875rem; color: #000 }
 .ds-back-to-home:hover{ color: #000 }
 /*-----------------------------------------------------------------
@@ -86,6 +98,12 @@ svg,img { max-width: 100%; height: auto; }
 .ds-tools{ font-weight:400; font-size: 1.125rem; display: block; }
 .ds-about-section{ margin-top:8.8125rem }
 .ads-bout-section .ds-heading-inner,.ds-back-home{ margin-bottom: var(--margin-54) }
+
+@media (max-width: 768px) {
+  .ds-proj-hedding {
+    font-size: 1rem;
+  }
+}
 
 
 .ds-left-right-section .ds-hedding{font-size:3rem; position:relative; margin-bottom:0.875rem;font-family: 'DM Serif Display', serif;}
