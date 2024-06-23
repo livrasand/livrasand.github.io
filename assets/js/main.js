@@ -1,16 +1,18 @@
 jQuery(document).ready(function($) {
+  // Función para ajustar AOS dependiendo del tamaño de la pantalla
+  function adjustAOS() {
+    AOS.init({
+      offset: 100,
+      once: true,
+      duration: 800,
+      throttleDelay: 50,
+      disable: window.innerWidth < 768
+    });
+  }
 
-   
-        AOS.init({
-            offset: 100,
-            once: true,
-            duration: 800,
-            throttleDelay: 50,
-            disable: window.innerWidth < 768
-        });
-   
-
-});
+  // Llamar a la función para ajustar AOS al cargar la página y al cambiar el tamaño de la ventana
+  adjustAOS();
+  window.addEventListener('resize', adjustAOS);
 
 // Buscador activar/desactivar
 //document.getElementById('abrir-buscador').addEventListener('click', function() {
@@ -29,6 +31,7 @@ document.addEventListener('DOMContentLoaded', function() {
 });
 
 // Mostrar contenido dinamico
+  let j// Mostrar contenido dinámico basado en el JSON
   let jsonData; // Declarar jsonData en el ámbito global
   let publicationsContainer; // Declarar publicationsContainer en el ámbito global
 
@@ -43,18 +46,34 @@ document.addEventListener('DOMContentLoaded', function() {
 
       // Genera el contenido basado en el JSON
       jsonData.forEach(publication => {
-  const projectItem = document.createElement('div');
-  projectItem.innerHTML = `
-    <div class="ds-project-list-loop-inner" style="margin-bottom: 30px; width: 100%;">
-      <section style="display: flex; align-items: center;">
-        <figure style="width: 20%;"><img src="${publication.imageURL}" style="width: 100%;"></figure>
-        <h2 class="ds-proj-hedding" style="margin-left:85%; flex: 1;width:100%;">${publication.title}</h2>
-        <a onclick="showDownloadModal('${publication.downloadURL}')"><span class="ri-download-cloud-2-line transition" style="margin-left: 15px;"></span></a>
-        <a href="https://github.com/livrasand/Reviw/issues/new?assignees=&labels=removal+request&projects=&template=jwpub_removal.yml"><span class="ri-bug-line transition" style="margin-left: 15px;"></span></a>
-      </section>
-    </div>
-  `;
-
+        const projectItem = document.createElement('div');
+        
+        // Determina qué contenido mostrar según el tamaño de la pantalla
+        const content = window.innerWidth < 768 ? `
+          <div class="ds-project-list-loop-inner" style="margin-bottom: 30px; width: 100%;">
+            <section style="display: flex; flex-direction: column; align-items: center; text-align: center;">
+              <figure style="width: 80%; max-width: 300px;">
+                <img src="${publication.imageURL}" style="width: 100%; max-width: 100%;">
+              </figure>
+              <h2 class="ds-proj-hedding" style="margin: 0; margin-top: 1rem;">${publication.title}</h2>
+              <div style="display: flex; justify-content: center; margin-top: 1rem;">
+                <a onclick="showDownloadModal('${publication.downloadURL}')" style="margin-left: 15px;"><span class="ri-download-cloud-2-line transition"></span></a>
+                <a href="https://github.com/livrasand/Reviw/issues/new?assignees=&amp;labels=removal+request&amp;projects=&amp;template=jwpub_removal.yml" style="margin-left: 15px;"><span class="ri-bug-line transition"></span></a>
+              </div>
+            </section>
+          </div>
+        ` : `
+          <div class="ds-project-list-loop-inner" style="margin-bottom: 30px; width: 100%;">
+            <section style="display: flex; align-items: center;">
+              <figure style="width: 20%;"><img src="${publication.imageURL}" style="width: 100%;"></figure>
+              <h2 class="ds-proj-hedding" style="margin-left:85%; flex: 1;width:100%;">${publication.title}</h2>
+              <a onclick="showDownloadModal('${publication.downloadURL}')"><span class="ri-download-cloud-2-line transition" style="margin-left: 15px;"></span></a>
+              <a href="https://github.com/livrasand/Reviw/issues/new?assignees=&amp;labels=removal+request&amp;projects=&amp;template=jwpub_removal.yml"><span class="ri-bug-line transition" style="margin-left: 15px;"></span></a>
+            </section>
+          </div>
+        `;
+        
+        projectItem.innerHTML = content;
         publicationsContainer.appendChild(projectItem);
       });
     })
