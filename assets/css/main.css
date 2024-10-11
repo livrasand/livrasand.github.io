@@ -141,8 +141,35 @@ svg,img { max-width: 100%; height: auto; }
 .ds-social{list-style: none; padding: 0; margin: 0; display: flex;}
 .ds-social li{ margin-right:4rem; }
 .ds-social li:last-child{ margin-right: 0 }
-.ds-social a{ color: #797979; font-size: 2.5625rem; }
-.ds-social a:hover{ color: #000 }
+/* Ajustes generales para los íconos sociales */
+.ds-social a {
+    color: #797979; 
+    font-size: 2.5625rem; /* Tamaño base en pantallas grandes */
+}
+
+.ds-social a:hover {
+    color: #000; /* Color al pasar el cursor */
+}
+
+/* Para tabletas (768px o menos) */
+@media (max-width: 768px) {
+  .ds-social a {
+    font-size: 2rem; /* Tamaño más pequeño en tabletas */
+  }
+}
+
+/* Para móviles (480px o menos) */
+@media (max-width: 480px) {
+  .ds-social a {
+    font-size: 1.5rem; /* Tamaño aún más pequeño en móviles */
+  }
+
+  /* También puedes reducir el margen entre los íconos en móviles */
+  .ds-social li {
+    margin-right: 2rem; /* Ajusta el espacio entre los íconos */
+  }
+}
+
 .ds-copyright{ display: block; text-align: right; color:#2B2B2B; font-size:1.125rem }
 .ds-copyright a{color:#2B2B2B;}
 .ds-copyright a:hover{color:#2B2B2B; text-decoration: underline;}
